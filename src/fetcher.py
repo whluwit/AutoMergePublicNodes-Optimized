@@ -195,7 +195,7 @@ class AsyncFetcher:
             
             try:
                 # 支持 YAML 格式
-                if line.startswith('- ') or ': {'):
+                if line.startswith('- ') or ': {' in line:
                     # 简单 YAML 解析（完整解析需要 yaml 库）
                     continue
                 
