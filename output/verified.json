@@ -2,48 +2,78 @@
   "log": {
     "level": "info"
   },
+  "dns": {
+    "servers": [
+      {
+        "tag": "dns-proxy",
+        "address": "https://1.1.1.1/dns-query",
+        "detour": "proxy"
+      },
+      {
+        "tag": "dns-direct",
+        "address": "https://223.5.5.5/dns-query",
+        "detour": "direct"
+      }
+    ],
+    "rules": [
+      {
+        "outbound": "any",
+        "server": "dns-direct"
+      }
+    ],
+    "strategy": "prefer_ipv4"
+  },
+  "inbounds": [
+    {
+      "type": "mixed",
+      "tag": "mixed-in",
+      "listen": "127.0.0.1",
+      "listen_port": 2080
+    }
+  ],
   "outbounds": [
     {
       "type": "selector",
       "tag": "proxy",
       "outbounds": [
-        "[53.24070466666816ms] 🇺🇸US-37.19.198.244-0123",
-        "[53.31611866666227ms] 🇺🇸US-37.19.198.236-0145",
-        "[56.377504666665835ms] 4Nika-879",
-        "[56.5167986666637ms] 🇺🇸US-37.19.198.243-0122",
-        "[64.93731066666915ms] 🇺🇸+US+1",
-        "[66.03897833333387ms] 4Nika-690",
-        "[100.65064333333378ms] 🇺🇸US美国25+29.8MB/s",
-        "[101.24848700000182ms] 🇺🇸US-107.172.250.161-0126",
-        "[105.01551966666511ms] 4Nika-1155",
-        "[108.06690966667058ms] 4Nika-1153",
-        "[114.42168366666768ms] 🇺🇸US-156.146.38.167-0104",
-        "[115.04914399999677ms] 🇺🇸US-156.146.38.170-0102",
-        "[115.3207893333293ms] 🇺🇸US-156.146.38.169-0103",
-        "[118.47025066666579ms] 🇺🇸US-156.146.38.168-0101",
-        "[182.35140533333075ms] 4Nika-618",
-        "[195.0550583333334ms] 🇺🇸US-173.244.56.9-0207",
-        "[204.22818500000042ms] 🇺🇸US-173.244.56.6-3876",
-        "[209.81777733333237ms] 4Nika-1123",
-        "[212.7188706666677ms] 4Nika-1122",
-        "[216.36394866666345ms] 4Nika-31",
-        "[248.29546366666003ms] 🇺🇸US-108.181.0.177-0116",
-        "[254.56081033332603ms] 🦄75@oneclickvpnkeys",
-        "[291.538204666665ms] 🇨🇦CA-149.22.95.183-0124",
-        "[295.6624803333388ms] @VPN_PASARGAD",
-        "[726.7439663333354ms] RO_c13b4_0019",
-        "[734.2934336666644ms] RO_c13b4_0018",
-        "[865.1137926666621ms] Free",
-        "[1565.4776496666661ms] 韩国(yudou789.top 玉豆免费节点)",
-        "[1774.0692266666683ms] +By+EbraSha+🔮"
+        "[ 35.2ms] 🇺🇸US-37.19.198.244-3684",
+        "[ 36.6ms] 🇺🇸US-37.19.198.243-0224",
+        "[ 48.1ms] 🇺🇸US-37.19.198.160-0213",
+        "[ 97.0ms] 🇨🇦CA-15.222.60.36-0125",
+        "[118.9ms] 🇺🇸US-156.146.38.168-0101",
+        "[119.7ms] 🇺🇸US-156.146.38.170-4074",
+        "[119.8ms] 🇺🇸US-156.146.38.167-0205",
+        "[120.5ms] 🇺🇸US-156.146.38.169-0103",
+        "[124.8ms] 🇺🇸US-149.28.255.6-0105",
+        "[146.1ms] 🇺🇸US-107.172.250.161-0126",
+        "[175.2ms] 4Nika-611",
+        "[191.6ms] 🇺🇸US-173.244.56.9-0207",
+        "[197.9ms] 🇺🇸US-173.244.56.6-0139",
+        "[234.2ms] 🇺🇸US-216.105.168.18-0173",
+        "[261.0ms] 🦄75@oneclickvpnkeys",
+        "[280.6ms] 4Nika-820",
+        "[286.8ms] 4Nika-292",
+        "[317.4ms] 4Nika-848",
+        "[319.6ms] 4Nika-850",
+        "[324.9ms] 4Nika-849",
+        "[338.2ms] 🇺🇸US-71.19.148.74-0187",
+        "[587.4ms] 🇮🇪41314",
+        "[618.9ms] Free",
+        "[688.2ms] 🇺🇸US-37.19.198.236-0112",
+        "[707.5ms] RO_660ee_0015",
+        "[724.5ms] RO_660ee_0014",
+        "[732.6ms] RO_660ee_0016",
+        "[1383.9ms] @outline_ir",
+        "[1490.1ms] 韩国(yudou789.top 玉豆免费节点)",
+        "[1514.8ms] 4Nika-1107"
       ],
-      "default": "[53.24070466666816ms] 🇺🇸US-37.19.198.244-0123"
+      "default": "[ 35.2ms] 🇺🇸US-37.19.198.244-3684"
     },
     {
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[53.24070466666816ms] 🇺🇸US-37.19.198.244-0123",
+      "tag": "[ 35.2ms] 🇺🇸US-37.19.198.244-3684",
       "server": "37.19.198.244",
       "server_port": 443
     },
@@ -51,87 +81,39 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[53.31611866666227ms] 🇺🇸US-37.19.198.236-0145",
-      "server": "37.19.198.236",
-      "server_port": 443
-    },
-    {
-      "method": "aes-128-gcm",
-      "password": "shadowsocks",
-      "type": "shadowsocks",
-      "tag": "[56.377504666665835ms] 4Nika-879",
-      "server": "37.19.198.160",
-      "server_port": 443
-    },
-    {
-      "method": "aes-128-gcm",
-      "password": "shadowsocks",
-      "type": "shadowsocks",
-      "tag": "[56.5167986666637ms] 🇺🇸US-37.19.198.243-0122",
+      "tag": "[ 36.6ms] 🇺🇸US-37.19.198.243-0224",
       "server": "37.19.198.243",
       "server_port": 443
     },
     {
-      "method": "chacha20-ietf-poly1305",
-      "password": "RSo52SbxW40r",
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[64.93731066666915ms] 🇺🇸+US+1",
-      "server": "108.181.57.93",
-      "server_port": 8388
-    },
-    {
-      "method": "chacha20-ietf-poly1305",
-      "password": "hbGrpfvNrJsUmKmPbR3iY2",
-      "type": "shadowsocks",
-      "tag": "[66.03897833333387ms] 4Nika-690",
-      "server": "147.90.234.133",
-      "server_port": 443
-    },
-    {
-      "method": "chacha20-ietf-poly1305",
-      "password": "GyZ5Xo0ht41vYmW3H4",
-      "type": "shadowsocks",
-      "tag": "[100.65064333333378ms] 🇺🇸US美国25+29.8MB/s",
-      "server": "149.28.255.6",
-      "server_port": 816
-    },
-    {
-      "method": "chacha20-ietf-poly1305",
-      "password": "QTmLViU4VEmuwbOxUw4IXd",
-      "type": "shadowsocks",
-      "tag": "[101.24848700000182ms] 🇺🇸US-107.172.250.161-0126",
-      "server": "107.172.250.161",
-      "server_port": 59556
-    },
-    {
-      "method": "aes-256-cfb",
-      "password": "amazonskr05",
-      "type": "shadowsocks",
-      "tag": "[105.01551966666511ms] 4Nika-1155",
-      "server": "35.183.96.211",
+      "tag": "[ 48.1ms] 🇺🇸US-37.19.198.160-0213",
+      "server": "37.19.198.160",
       "server_port": 443
     },
     {
       "method": "aes-256-cfb",
       "password": "amazonskr05",
       "type": "shadowsocks",
-      "tag": "[108.06690966667058ms] 4Nika-1153",
-      "server": "35.182.57.53",
+      "tag": "[ 97.0ms] 🇨🇦CA-15.222.60.36-0125",
+      "server": "15.222.60.36",
       "server_port": 443
     },
     {
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[114.42168366666768ms] 🇺🇸US-156.146.38.167-0104",
-      "server": "156.146.38.167",
+      "tag": "[118.9ms] 🇺🇸US-156.146.38.168-0101",
+      "server": "156.146.38.168",
       "server_port": 443
     },
     {
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[115.04914399999677ms] 🇺🇸US-156.146.38.170-0102",
+      "tag": "[119.7ms] 🇺🇸US-156.146.38.170-4074",
       "server": "156.146.38.170",
       "server_port": 443
     },
@@ -139,23 +121,39 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[115.3207893333293ms] 🇺🇸US-156.146.38.169-0103",
-      "server": "156.146.38.169",
+      "tag": "[119.8ms] 🇺🇸US-156.146.38.167-0205",
+      "server": "156.146.38.167",
       "server_port": 443
     },
     {
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[118.47025066666579ms] 🇺🇸US-156.146.38.168-0101",
-      "server": "156.146.38.168",
+      "tag": "[120.5ms] 🇺🇸US-156.146.38.169-0103",
+      "server": "156.146.38.169",
       "server_port": 443
+    },
+    {
+      "method": "chacha20-ietf-poly1305",
+      "password": "GyZ5Xo0ht41vYmW3H4",
+      "type": "shadowsocks",
+      "tag": "[124.8ms] 🇺🇸US-149.28.255.6-0105",
+      "server": "149.28.255.6",
+      "server_port": 816
+    },
+    {
+      "method": "chacha20-ietf-poly1305",
+      "password": "QTmLViU4VEmuwbOxUw4IXd",
+      "type": "shadowsocks",
+      "tag": "[146.1ms] 🇺🇸US-107.172.250.161-0126",
+      "server": "107.172.250.161",
+      "server_port": 59556
     },
     {
       "method": "chacha20-ietf-poly1305",
       "password": "cCrMWDWKbz9cBhHEl6A7rwBXpaKky915FTRu1q",
       "type": "shadowsocks",
-      "tag": "[182.35140533333075ms] 4Nika-618",
+      "tag": "[175.2ms] 4Nika-611",
       "server": "170.130.40.123",
       "server_port": 41352
     },
@@ -163,7 +161,7 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[195.0550583333334ms] 🇺🇸US-173.244.56.9-0207",
+      "tag": "[191.6ms] 🇺🇸US-173.244.56.9-0207",
       "server": "173.244.56.9",
       "server_port": 443
     },
@@ -171,41 +169,17 @@
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[204.22818500000042ms] 🇺🇸US-173.244.56.6-3876",
+      "tag": "[197.9ms] 🇺🇸US-173.244.56.6-0139",
       "server": "173.244.56.6",
       "server_port": 443
     },
     {
-      "method": "aes-256-cfb",
-      "password": "amazonskr05",
-      "type": "shadowsocks",
-      "tag": "[209.81777733333237ms] 4Nika-1123",
-      "server": "15.223.186.62",
-      "server_port": 443
-    },
-    {
-      "method": "aes-256-cfb",
-      "password": "amazonskr05",
-      "type": "shadowsocks",
-      "tag": "[212.7188706666677ms] 4Nika-1122",
-      "server": "15.222.60.36",
-      "server_port": 443
-    },
-    {
       "method": "chacha20-ietf-poly1305",
-      "password": "4e287631dc4fc8fc",
+      "password": "hCCWOcIsK5wrFz4OX70rWf",
       "type": "shadowsocks",
-      "tag": "[216.36394866666345ms] 4Nika-31",
-      "server": "62.146.231.112",
-      "server_port": 12012
-    },
-    {
-      "method": "chacha20-ietf-poly1305",
-      "password": "G5p6ww4o67HB",
-      "type": "shadowsocks",
-      "tag": "[248.29546366666003ms] 🇺🇸US-108.181.0.177-0116",
-      "server": "108.181.0.177",
-      "server_port": 8388
+      "tag": "[234.2ms] 🇺🇸US-216.105.168.18-0173",
+      "server": "216.105.168.18",
+      "server_port": 443
     },
     {
       "password": "dongtaiwang.com",
@@ -215,28 +189,80 @@
         "insecure": true
       },
       "type": "hysteria2",
-      "tag": "[254.56081033332603ms] 🦄75@oneclickvpnkeys",
+      "tag": "[261.0ms] 🦄75@oneclickvpnkeys",
       "server": "62.210.124.146",
       "server_port": 22000
+    },
+    {
+      "method": "aes-128-cfb",
+      "password": "shadowsocks",
+      "type": "shadowsocks",
+      "tag": "[280.6ms] 4Nika-820",
+      "server": "109.201.152.181",
+      "server_port": 443
+    },
+    {
+      "method": "chacha20-ietf-poly1305",
+      "password": "CJmTCCx7Ltud",
+      "type": "shadowsocks",
+      "tag": "[286.8ms] 4Nika-292",
+      "server": "108.181.126.122",
+      "server_port": 8388
     },
     {
       "method": "aes-128-gcm",
       "password": "shadowsocks",
       "type": "shadowsocks",
-      "tag": "[291.538204666665ms] 🇨🇦CA-149.22.95.183-0124",
-      "server": "149.22.95.183",
+      "tag": "[317.4ms] 4Nika-848",
+      "server": "141.98.101.178",
       "server_port": 443
     },
     {
-      "password": "A3uIh_5NqMg3hFa.gDYWT.afz0UuJ6=VIM",
-      "tls": {
-        "enabled": true,
-        "server_name": "172.237.145.189",
-        "insecure": true
-      },
-      "type": "trojan",
-      "tag": "[295.6624803333388ms] @VPN_PASARGAD",
-      "server": "172.237.145.189",
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "type": "shadowsocks",
+      "tag": "[319.6ms] 4Nika-850",
+      "server": "141.98.101.181",
+      "server_port": 443
+    },
+    {
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "type": "shadowsocks",
+      "tag": "[324.9ms] 4Nika-849",
+      "server": "141.98.101.179",
+      "server_port": 443
+    },
+    {
+      "method": "chacha20-ietf-poly1305",
+      "password": "gqkUCvmeOTghYJXF1YIuk5",
+      "type": "shadowsocks",
+      "tag": "[338.2ms] 🇺🇸US-71.19.148.74-0187",
+      "server": "71.19.148.74",
+      "server_port": 443
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "kDWvXYZoTBcGkC4",
+      "type": "shadowsocks",
+      "tag": "[587.4ms] 🇮🇪41314",
+      "server": "38.180.152.210",
+      "server_port": 8881
+    },
+    {
+      "method": "aes-256-gcm",
+      "password": "RexnBgU7EV5ADxG",
+      "type": "shadowsocks",
+      "tag": "[618.9ms] Free",
+      "server": "94.156.250.148",
+      "server_port": 7001
+    },
+    {
+      "method": "aes-128-gcm",
+      "password": "shadowsocks",
+      "type": "shadowsocks",
+      "tag": "[688.2ms] 🇺🇸US-37.19.198.236-0112",
+      "server": "37.19.198.236",
       "server_port": 443
     },
     {
@@ -246,7 +272,7 @@
         "insecure": true
       },
       "type": "http",
-      "tag": "[726.7439663333354ms] RO_c13b4_0019",
+      "tag": "[707.5ms] RO_660ee_0015",
       "server": "84.239.49.201",
       "server_port": 9002
     },
@@ -257,34 +283,56 @@
         "insecure": true
       },
       "type": "http",
-      "tag": "[734.2934336666644ms] RO_c13b4_0018",
+      "tag": "[724.5ms] RO_660ee_0014",
       "server": "84.239.14.158",
       "server_port": 9002
     },
     {
-      "method": "aes-256-gcm",
-      "password": "RexnBgU7EV5ADxG",
-      "type": "shadowsocks",
-      "tag": "[865.1137926666621ms] Free",
-      "server": "94.156.250.148",
-      "server_port": 7001
+      "tls": {
+        "enabled": true,
+        "server_name": "84.239.49.239",
+        "insecure": true
+      },
+      "type": "http",
+      "tag": "[732.6ms] RO_660ee_0016",
+      "server": "84.239.49.239",
+      "server_port": 9002
+    },
+    {
+      "uuid": "c2f0a8f0-36fe-4a94-824b-bca271ca642b",
+      "tls": {
+        "enabled": true,
+        "server_name": "alphacdn.alphashops.shop",
+        "insecure": true
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "alphacdn.alphashops.shop"
+        }
+      },
+      "type": "vless",
+      "tag": "[1383.9ms] @outline_ir",
+      "server": "104.18.139.67",
+      "server_port": 443
     },
     {
       "version": "5",
       "username": "VDJjbE0wUWxNMFE2Og==",
       "password": "",
       "type": "socks",
-      "tag": "[1565.4776496666661ms] 韩国(yudou789.top 玉豆免费节点)",
+      "tag": "[1490.1ms] 韩国(yudou789.top 玉豆免费节点)",
       "server": "121.169.46.116",
       "server_port": 1090
     },
     {
-      "method": "chacha20-ietf-poly1305",
-      "password": "66iAPUHyyA3YxBb3DmloTuArM0IiPeY2HCoH3m",
+      "method": "aes-256-cfb",
+      "password": "amazonskr05",
       "type": "shadowsocks",
-      "tag": "[1774.0692266666683ms] +By+EbraSha+🔮",
-      "server": "92.118.112.203",
-      "server_port": 41348
+      "tag": "[1514.8ms] 4Nika-1107",
+      "server": "13.218.172.80",
+      "server_port": 443
     },
     {
       "type": "direct",
@@ -292,6 +340,37 @@
     }
   ],
   "route": {
-    "final": "proxy"
+    "rules": [
+      {
+        "protocol": "dns",
+        "outbound": "dns-proxy"
+      },
+      {
+        "rule_set": "geosite-cn",
+        "outbound": "direct"
+      },
+      {
+        "rule_set": "geoip-cn",
+        "outbound": "direct"
+      }
+    ],
+    "rule_set": [
+      {
+        "tag": "geosite-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-cn.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "geoip-cn",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://raw.githubusercontent.com/SagerNet/sing-geoip/rule-set/geoip-cn.srs",
+        "download_detour": "direct"
+      }
+    ],
+    "final": "proxy",
+    "auto_detect_interface": true
   }
 }
