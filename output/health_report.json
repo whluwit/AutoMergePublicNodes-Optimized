@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-05 14:58:17",
+  "generated_at": "2026-06-05 16:43:33",
   "ok": true,
   "status": "warning",
   "prefixes": {
@@ -56,29 +56,30 @@
       "missing_files": [],
       "ok": true,
       "files": {
-        "json": 3770712,
-        "yaml": 2617177,
-        "urls": 1591655,
-        "txt": 2122208,
+        "json": 8183088,
+        "yaml": 6017399,
+        "urls": 3794377,
+        "txt": 5059168,
         "converter.md": 5434
       },
-      "url_count": 8508,
-      "txt_url_count": 8508,
-      "json_node_count": 8508,
-      "yaml_proxy_count": 8508,
+      "url_count": 15434,
+      "txt_url_count": 15434,
+      "json_node_count": 15434,
+      "yaml_proxy_count": 15434,
       "protocol_dist": {
-        "vmess": 1995,
-        "shadowsocks": 2702,
-        "trojan": 858,
-        "vless": 2828,
-        "hysteria2": 32,
-        "hysteria": 3,
+        "shadowsocks": 3445,
+        "vmess": 2293,
+        "trojan": 3005,
+        "vless": 6538,
+        "hysteria2": 53,
+        "hysteria": 6,
         "tuic": 1,
         "socks": 6,
-        "http": 29,
-        "shadowsocksr": 54
+        "http": 31,
+        "shadowsocksr": 54,
+        "anytls": 2
       },
-      "region_group_count": 82,
+      "region_group_count": 83,
       "region_groups": [
         "其他",
         "🇦🇪 其他",
@@ -145,6 +146,7 @@
         "🇵🇰 其他",
         "🇵🇱 其他",
         "🇵🇷 其他",
+        "🇵🇹 其他",
         "🇷🇴 其他",
         "🇷🇸 其他",
         "🇷🇺 俄罗斯",
@@ -169,15 +171,15 @@
     }
   },
   "strategy": {
-    "all_json_nodes": 8508,
+    "all_json_nodes": 15434,
     "verified_json_nodes": 180,
     "all_contains_at_least_verified_count": true,
     "note": "all.* 来自去重池；verified.* 来自质量过滤/TCP/真测后的 Top N。"
   },
   "stats_summary": {
-    "nodes_raw": 16652,
-    "nodes_dedup": 8508,
-    "nodes_real_ok": 180
+    "nodes_raw": 33441,
+    "nodes_dedup": 15434,
+    "nodes_real_ok": 38
   },
   "source_cleanup": {
     "dead_2_plus_count": 0,
@@ -186,19 +188,31 @@
   "alerts": {
     "low_pass_protocols": [
       {
+        "protocol": "vless",
+        "pass_rate": 0.008
+      },
+      {
         "protocol": "trojan",
-        "pass_rate": 0.085
+        "pass_rate": 0.0
       },
       {
         "protocol": "vmess",
-        "pass_rate": 0.043
+        "pass_rate": 0.04
       },
       {
-        "protocol": "tuic",
+        "protocol": "shadowsocks",
+        "pass_rate": 0.067
+      },
+      {
+        "protocol": "anytls",
         "pass_rate": 0.0
       },
       {
         "protocol": "shadowsocksr",
+        "pass_rate": 0.0
+      },
+      {
+        "protocol": "tuic",
         "pass_rate": 0.0
       },
       {
@@ -207,11 +221,11 @@
       }
     ],
     "real_test_errors": {
-      "204": 1182,
-      "geo": 61,
-      "speed": 12,
-      "sing-box exited 1": 37,
-      "cn-block": 28
+      "204": 1339,
+      "speed": 86,
+      "sing-box exited 1": 27,
+      "geo": 4,
+      "cn-block": 6
     }
   }
 }
