@@ -1,23 +1,23 @@
 {
   "version": "2.1.0",
-  "timestamp": "2026-06-05 09:50:12",
-  "duration_sec": 136.3,
+  "timestamp": "2026-06-05 09:56:25",
+  "duration_sec": 122.9,
   "stage_durations": {
-    "fetch": 1.9,
+    "fetch": 1.8,
     "geo": 1.1,
-    "tcp": 40.4,
-    "real_test": 71.0,
-    "generate": 21.9
+    "tcp": 40.7,
+    "real_test": 63.9,
+    "generate": 15.4
   },
   "sources_total": 29,
   "sources_healthy": 29,
   "nodes_raw": 16329,
   "nodes_dedup": 8465,
   "nodes_tcp_ok": 1000,
-  "nodes_real_ok": 90,
-  "nodes_verified_output": 90,
-  "nodes_global_output": 102,
-  "nodes_global_extra_from_cn_block": 12,
+  "nodes_real_ok": 84,
+  "nodes_verified_output": 84,
+  "nodes_global_output": 89,
+  "nodes_global_extra_from_cn_block": 5,
   "global_skip_target_kinds": [
     "cn-block"
   ],
@@ -37,36 +37,36 @@
   },
   "protocol_pass_rate": {
     "vless": {
-      "pass": 9,
-      "fail": 339
+      "pass": 13,
+      "fail": 354
     },
     "trojan": {
-      "pass": 20,
-      "fail": 91
+      "pass": 15,
+      "fail": 96
     },
     "hysteria2": {
-      "pass": 0,
-      "fail": 3
+      "pass": 1,
+      "fail": 2
     },
     "tuic": {
       "pass": 0,
       "fail": 1
     },
     "vmess": {
-      "pass": 2,
-      "fail": 391
+      "pass": 1,
+      "fail": 373
     },
     "shadowsocks": {
-      "pass": 51,
-      "fail": 60
+      "pass": 45,
+      "fail": 66
     },
     "shadowsocksr": {
       "pass": 0,
       "fail": 10
     },
     "http": {
-      "pass": 7,
-      "fail": 14
+      "pass": 8,
+      "fail": 13
     },
     "socks": {
       "pass": 1,
@@ -75,77 +75,73 @@
   },
   "source_pass_rate": {
     "Surfboard-tg-mixed": {
-      "pass": 41,
-      "fail": 216
+      "pass": 35,
+      "fail": 203
     },
     "ninja-vless": {
       "pass": 0,
-      "fail": 169
+      "fail": 202
+    },
+    "mahdibland-V2RayAggregator": {
+      "pass": 4,
+      "fail": 390
     },
     "Barabama-yudou": {
       "pass": 1,
-      "fail": 3
-    },
-    "Barabama-we": {
-      "pass": 0,
-      "fail": 3
+      "fail": 6
     },
     "ninja-tuic": {
       "pass": 0,
       "fail": 1
     },
-    "mahdibland-V2RayAggregator": {
-      "pass": 4,
-      "fail": 406
-    },
     "Au1rxx-base64": {
-      "pass": 21,
-      "fail": 39
+      "pass": 20,
+      "fail": 37
+    },
+    "freefq": {
+      "pass": 0,
+      "fail": 1
     },
     "Mr8AHAL": {
       "pass": 0,
-      "fail": 10
+      "fail": 7
     },
     "mheidari-all": {
       "pass": 16,
-      "fail": 46
+      "fail": 52
     },
     "vxiaov": {
       "pass": 0,
       "fail": 1
     },
     "snakem982": {
-      "pass": 7,
-      "fail": 15
+      "pass": 8,
+      "fail": 14
     },
-    "freefq": {
+    "Barabama-we": {
       "pass": 0,
-      "fail": 1
+      "fail": 2
     }
   },
   "real_test_errors": {
-    "204": 868,
-    "sing-box exited 1": 11,
-    "cn-block": 15,
-    "speed": 9,
-    "geo": 7
+    "204": 874,
+    "cn-block": 7,
+    "speed": 15,
+    "geo": 10,
+    "sing-box exited 1": 10
   },
   "real_test_error_details": [
     {
       "error": "204:ProxyError",
-      "count": 710
+      "count": 715
     },
     {
       "error": "204:ClientOSError",
-      "count": 111
+      "count": 116
     },
     {
       "error": "204:TimeoutError",
-      "count": 47
-    },
-    {
-      "error": "cn-block:TimeoutError",
-      "count": 12
+      "count": 43
     },
     {
       "error": "sing-box exited 1: \u001b[31mFATAL\u001b[0m[0000] create service: initialize outbound[0]: ShadowsocksR is deprecated and removed i",
@@ -153,10 +149,18 @@
     },
     {
       "error": "speed:TimeoutError",
+      "count": 9
+    },
+    {
+      "error": "speed:ClientOSError",
       "count": 6
     },
     {
-      "error": "cn-block:ClientOSError",
+      "error": "cn-block:TimeoutError",
+      "count": 6
+    },
+    {
+      "error": "geo:status=429",
       "count": 3
     },
     {
@@ -164,56 +168,52 @@
       "count": 3
     },
     {
-      "error": "speed:ClientOSError",
-      "count": 2
-    },
-    {
-      "error": "geo:status=429",
+      "error": "geo:ProxyError",
       "count": 2
     }
   ],
   "top_latencies_ms": [
-    203.2,
-    244.1,
-    246.5,
-    272.7,
-    277.6,
-    342.2,
-    343.5,
-    345.9,
-    353.6,
-    392.2,
-    451.8,
-    453.1,
-    456.0,
-    464.1,
-    464.1,
-    465.8,
-    469.1,
-    472.2,
-    472.8,
-    474.2
+    254.8,
+    257.7,
+    257.7,
+    259.7,
+    304.2,
+    349.4,
+    375.7,
+    380.3,
+    382.0,
+    390.0,
+    391.8,
+    396.4,
+    399.3,
+    404.4,
+    407.0,
+    423.1,
+    423.9,
+    447.8,
+    470.4,
+    493.7
   ],
   "top_jitters_ms": [
-    439.6,
-    494.3,
-    472.8,
-    454.4,
-    593.2,
-    585.4,
-    581.8,
-    593.3,
-    876.2,
-    690.5,
-    203.6,
-    218.9,
-    219.6,
-    668.2,
-    667.6,
-    198.1,
-    653.3,
-    676.0,
-    729.4,
-    649.3
+    549.1,
+    561.3,
+    560.4,
+    565.0,
+    482.1,
+    610.1,
+    694.1,
+    619.0,
+    710.0,
+    814.0,
+    640.7,
+    627.8,
+    716.9,
+    716.6,
+    653.9,
+    564.7,
+    642.4,
+    767.6,
+    589.5,
+    590.1
   ]
 }
