@@ -1,6 +1,6 @@
 # 订阅源质量评分
 
-生成时间：2026-06-11 23:46:52
+生成时间：2026-06-11 23:54:00
 
 ## 摘要
 
@@ -22,13 +22,13 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| xiaoji235-airport-v2ray-all | 0.102 | downweight | 5 | 0 | 5 | 0.0 | 729 | 0 |
-| moneyfly1-collectSub | 0.105 | downweight | 9 | 0 | 9 | 0.0 | 1164 | 0 |
-| ninja-vless | 0.11 | downweight | 24 | 0 | 24 | 0.0 | 1791 | 0 |
-| mahdibland-V2RayAggregator | 0.13 | downweight | 14 | 0 | 14 | 0.0 | 4536 | 0 |
-| SoliSpirit-all | 0.132 | downweight | 13 | 0 | 13 | 0.0 | 3000 | 0 |
-| 10ium-ScrapeCategorize-Vless | 0.138 | downweight | 9 | 0 | 9 | 0.0 | 2000 | 0 |
-| DeltaKronecker-all | 0.2 | downweight | 463 | 55 | 408 | 0.119 | 4660 | 0 |
+| xiaoji235-airport-v2ray-all | 0.093 | downweight | 7 | 0 | 7 | 0.0 | 729 | 0 |
+| moneyfly1-collectSub | 0.103 | downweight | 10 | 0 | 10 | 0.0 | 1164 | 0 |
+| ninja-vless | 0.115 | downweight | 21 | 0 | 21 | 0.0 | 1791 | 0 |
+| 10ium-ScrapeCategorize-Vless | 0.128 | downweight | 17 | 0 | 17 | 0.0 | 2000 | 0 |
+| SoliSpirit-all | 0.129 | downweight | 15 | 0 | 15 | 0.0 | 3000 | 0 |
+| mahdibland-V2RayAggregator | 0.132 | downweight | 13 | 0 | 13 | 0.0 | 4536 | 0 |
+| DeltaKronecker-all | 0.134 | downweight | 479 | 25 | 454 | 0.052 | 4660 | 0 |
 
 ## 建议禁用
 
@@ -39,19 +39,19 @@
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.958 | prefer | 43 | 42 | 1 | 0.977 | 52 | 0 |
-| Au1rxx-base64 | 0.553 | observe | 69 | 38 | 31 | 0.551 | 88 | 0 |
-| Surfboard-tg-mixed | 0.308 | observe | 717 | 163 | 554 | 0.227 | 4225 | 0 |
-| roosterkid-openproxylist-v2ray | 0.306 | observe | 28 | 8 | 20 | 0.286 | 150 | 0 |
-| mheidari-all | 0.282 | observe | 92 | 18 | 74 | 0.196 | 2000 | 0 |
+| Au1rxx-base64 | 0.565 | observe | 71 | 40 | 31 | 0.563 | 88 | 0 |
+| roosterkid-openproxylist-v2ray | 0.296 | observe | 29 | 8 | 21 | 0.276 | 150 | 0 |
+| mheidari-all | 0.291 | observe | 93 | 19 | 74 | 0.204 | 2000 | 0 |
+| Surfboard-tg-mixed | 0.29 | observe | 694 | 145 | 549 | 0.209 | 4225 | 0 |
 | Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 3224 | 0 |
+| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 3000 | 0 |
 | MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3000 | 0 |
 | barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 2000 | 0 |
-| DeltaKronecker-all | 0.2 | downweight | 463 | 55 | 408 | 0.119 | 4660 | 0 |
+| Barabama-yudou | 0.214 | observe | 2 | 1 | 1 | 0.5 | 166 | 0 |
+| 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 501 | 0 |
 | barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 473 | 0 |
 | mfuu-v2ray | 0.19 | observe | 0 | 0 | 0 | None | 387 | 0 |
-| Barabama-yudou | 0.186 | observe | 3 | 1 | 2 | 0.333 | 166 | 0 |
-| Epodonios-all | 0.184 | observe | 2 | 0 | 2 | 0.0 | 3000 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 199 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 | ts-sf-Fly | 0.179 | observe | 0 | 0 | 0 | None | 89 | 0 |
@@ -68,23 +68,21 @@
 | barabama-nodefree | 0.176 | observe | 0 | 0 | 0 | None | 23 | 0 |
 | ripaojiedian-freenode | 0.176 | observe | 0 | 0 | 0 | None | 15 | 0 |
 | freefq | 0.176 | observe | 0 | 0 | 0 | None | 14 | 0 |
-| Pawdroid | 0.175 | observe | 0 | 0 | 0 | None | 7 | 0 |
-| tonykong-base64 | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
 
 ## 综合后 30
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| xiaoji235-airport-v2ray-all | 0.102 | downweight | 5 | 0 | 5 | 0.0 | 729 | 0 |
-| moneyfly1-collectSub | 0.105 | downweight | 9 | 0 | 9 | 0.0 | 1164 | 0 |
-| ninja-vless | 0.11 | downweight | 24 | 0 | 24 | 0.0 | 1791 | 0 |
-| 10ium-HighSpeed | 0.114 | observe | 4 | 0 | 4 | 0.0 | 839 | 0 |
+| xiaoji235-airport-v2ray-all | 0.093 | downweight | 7 | 0 | 7 | 0.0 | 729 | 0 |
+| moneyfly1-collectSub | 0.103 | downweight | 10 | 0 | 10 | 0.0 | 1164 | 0 |
+| ninja-vless | 0.115 | downweight | 21 | 0 | 21 | 0.0 | 1791 | 0 |
+| nscl5-all | 0.119 | observe | 4 | 0 | 4 | 0.0 | 984 | 0 |
 | ninja-tuic | 0.128 | observe | 1 | 0 | 1 | 0.0 | 1 | 0 |
 | abc-configs-readme-latest30 | 0.128 | observe | 1 | 0 | 1 | 0.0 | 24 | 0 |
-| nscl5-all | 0.129 | observe | 3 | 0 | 3 | 0.0 | 984 | 0 |
-| mahdibland-V2RayAggregator | 0.13 | downweight | 14 | 0 | 14 | 0.0 | 4536 | 0 |
-| SoliSpirit-all | 0.132 | downweight | 13 | 0 | 13 | 0.0 | 3000 | 0 |
-| 10ium-ScrapeCategorize-Vless | 0.138 | downweight | 9 | 0 | 9 | 0.0 | 2000 | 0 |
+| 10ium-ScrapeCategorize-Vless | 0.128 | downweight | 17 | 0 | 17 | 0.0 | 2000 | 0 |
+| SoliSpirit-all | 0.129 | downweight | 15 | 0 | 15 | 0.0 | 3000 | 0 |
+| mahdibland-V2RayAggregator | 0.132 | downweight | 13 | 0 | 13 | 0.0 | 4536 | 0 |
+| DeltaKronecker-all | 0.134 | downweight | 479 | 25 | 454 | 0.052 | 4660 | 0 |
 | ninja-hy2 | 0.175 | observe | 0 | 0 | 0 | None | 3 | 0 |
 | tonykong-base64 | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
 | tonykong-clash | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
