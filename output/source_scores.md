@@ -1,6 +1,6 @@
 # 订阅源质量评分
 
-生成时间：2026-06-11 23:54:00
+生成时间：2026-06-11 23:58:32
 
 ## 摘要
 
@@ -22,13 +22,13 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| xiaoji235-airport-v2ray-all | 0.093 | downweight | 7 | 0 | 7 | 0.0 | 729 | 0 |
-| moneyfly1-collectSub | 0.103 | downweight | 10 | 0 | 10 | 0.0 | 1164 | 0 |
-| ninja-vless | 0.115 | downweight | 21 | 0 | 21 | 0.0 | 1791 | 0 |
-| 10ium-ScrapeCategorize-Vless | 0.128 | downweight | 17 | 0 | 17 | 0.0 | 2000 | 0 |
-| SoliSpirit-all | 0.129 | downweight | 15 | 0 | 15 | 0.0 | 3000 | 0 |
+| xiaoji235-airport-v2ray-all | 0.097 | downweight | 6 | 0 | 6 | 0.0 | 729 | 0 |
+| nscl5-all | 0.113 | downweight | 5 | 0 | 5 | 0.0 | 984 | 0 |
+| ninja-vless | 0.113 | downweight | 22 | 0 | 22 | 0.0 | 1791 | 0 |
+| 10ium-ScrapeCategorize-Vless | 0.127 | downweight | 18 | 0 | 18 | 0.0 | 2000 | 0 |
+| SoliSpirit-all | 0.132 | downweight | 13 | 0 | 13 | 0.0 | 3000 | 0 |
 | mahdibland-V2RayAggregator | 0.132 | downweight | 13 | 0 | 13 | 0.0 | 4536 | 0 |
-| DeltaKronecker-all | 0.134 | downweight | 479 | 25 | 454 | 0.052 | 4660 | 0 |
+| DeltaKronecker-all | 0.218 | downweight | 426 | 58 | 368 | 0.136 | 4660 | 0 |
 
 ## 建议禁用
 
@@ -39,16 +39,16 @@
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.958 | prefer | 43 | 42 | 1 | 0.977 | 52 | 0 |
-| Au1rxx-base64 | 0.565 | observe | 71 | 40 | 31 | 0.563 | 88 | 0 |
+| Au1rxx-base64 | 0.524 | observe | 71 | 37 | 34 | 0.521 | 88 | 0 |
+| mheidari-all | 0.303 | observe | 92 | 20 | 72 | 0.217 | 2000 | 0 |
 | roosterkid-openproxylist-v2ray | 0.296 | observe | 29 | 8 | 21 | 0.276 | 150 | 0 |
-| mheidari-all | 0.291 | observe | 93 | 19 | 74 | 0.204 | 2000 | 0 |
-| Surfboard-tg-mixed | 0.29 | observe | 694 | 145 | 549 | 0.209 | 4225 | 0 |
+| Surfboard-tg-mixed | 0.28 | observe | 752 | 150 | 602 | 0.199 | 4225 | 0 |
 | Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 3224 | 0 |
 | Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 3000 | 0 |
 | MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3000 | 0 |
 | barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 2000 | 0 |
+| DeltaKronecker-all | 0.218 | downweight | 426 | 58 | 368 | 0.136 | 4660 | 0 |
 | Barabama-yudou | 0.214 | observe | 2 | 1 | 1 | 0.5 | 166 | 0 |
-| 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 501 | 0 |
 | barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 473 | 0 |
 | mfuu-v2ray | 0.19 | observe | 0 | 0 | 0 | None | 387 | 0 |
@@ -64,32 +64,32 @@
 | peasoft-NoMoreWalls | 0.176 | observe | 0 | 0 | 0 | None | 29 | 0 |
 | vxiaov | 0.176 | observe | 0 | 0 | 0 | None | 28 | 0 |
 | Mr8AHAL | 0.176 | observe | 0 | 0 | 0 | None | 26 | 0 |
-| Barabama-we | 0.176 | observe | 0 | 0 | 0 | None | 23 | 0 |
 | barabama-nodefree | 0.176 | observe | 0 | 0 | 0 | None | 23 | 0 |
 | ripaojiedian-freenode | 0.176 | observe | 0 | 0 | 0 | None | 15 | 0 |
 | freefq | 0.176 | observe | 0 | 0 | 0 | None | 14 | 0 |
+| Pawdroid | 0.175 | observe | 0 | 0 | 0 | None | 7 | 0 |
 
 ## 综合后 30
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| xiaoji235-airport-v2ray-all | 0.093 | downweight | 7 | 0 | 7 | 0.0 | 729 | 0 |
-| moneyfly1-collectSub | 0.103 | downweight | 10 | 0 | 10 | 0.0 | 1164 | 0 |
-| ninja-vless | 0.115 | downweight | 21 | 0 | 21 | 0.0 | 1791 | 0 |
-| nscl5-all | 0.119 | observe | 4 | 0 | 4 | 0.0 | 984 | 0 |
+| xiaoji235-airport-v2ray-all | 0.097 | downweight | 6 | 0 | 6 | 0.0 | 729 | 0 |
+| nscl5-all | 0.113 | downweight | 5 | 0 | 5 | 0.0 | 984 | 0 |
+| ninja-vless | 0.113 | downweight | 22 | 0 | 22 | 0.0 | 1791 | 0 |
+| moneyfly1-collectSub | 0.127 | observe | 4 | 0 | 4 | 0.0 | 1164 | 0 |
+| 10ium-ScrapeCategorize-Vless | 0.127 | downweight | 18 | 0 | 18 | 0.0 | 2000 | 0 |
 | ninja-tuic | 0.128 | observe | 1 | 0 | 1 | 0.0 | 1 | 0 |
+| Barabama-we | 0.128 | observe | 1 | 0 | 1 | 0.0 | 23 | 0 |
 | abc-configs-readme-latest30 | 0.128 | observe | 1 | 0 | 1 | 0.0 | 24 | 0 |
-| 10ium-ScrapeCategorize-Vless | 0.128 | downweight | 17 | 0 | 17 | 0.0 | 2000 | 0 |
-| SoliSpirit-all | 0.129 | downweight | 15 | 0 | 15 | 0.0 | 3000 | 0 |
+| SoliSpirit-all | 0.132 | downweight | 13 | 0 | 13 | 0.0 | 3000 | 0 |
 | mahdibland-V2RayAggregator | 0.132 | downweight | 13 | 0 | 13 | 0.0 | 4536 | 0 |
-| DeltaKronecker-all | 0.134 | downweight | 479 | 25 | 454 | 0.052 | 4660 | 0 |
+| 10ium-HighSpeed | 0.161 | observe | 1 | 0 | 1 | 0.0 | 839 | 0 |
 | ninja-hy2 | 0.175 | observe | 0 | 0 | 0 | None | 3 | 0 |
 | tonykong-base64 | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
 | tonykong-clash | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
 | Pawdroid | 0.175 | observe | 0 | 0 | 0 | None | 7 | 0 |
 | freefq | 0.176 | observe | 0 | 0 | 0 | None | 14 | 0 |
 | ripaojiedian-freenode | 0.176 | observe | 0 | 0 | 0 | None | 15 | 0 |
-| Barabama-we | 0.176 | observe | 0 | 0 | 0 | None | 23 | 0 |
 | barabama-nodefree | 0.176 | observe | 0 | 0 | 0 | None | 23 | 0 |
 | Mr8AHAL | 0.176 | observe | 0 | 0 | 0 | None | 26 | 0 |
 | vxiaov | 0.176 | observe | 0 | 0 | 0 | None | 28 | 0 |
