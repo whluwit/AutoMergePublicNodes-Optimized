@@ -5,40 +5,40 @@
 | 指标 | 数值 |
 | --- | --- |
 | 版本 | 2.3.0 |
-| 更新时间 | 2026-06-12 10:19:49 |
-| 运行耗时 | 216.0s |
+| 更新时间 | 2026-06-12 15:21:54 |
+| 运行耗时 | 218.8s |
 | 订阅源总数 | 44 |
 | 健康订阅源 | 44 |
-| 原始节点 | 40228 |
-| 去重后节点 | 15001 |
+| 原始节点 | 40369 |
+| 去重后节点 | 14971 |
 | TCP 可达 | 1500 |
-| 真实可用 | 272 |
-| Verified 输出 | 272 |
-| Global 输出 | 286 |
-| All 输出 | 15001 |
+| 真实可用 | 273 |
+| Verified 输出 | 273 |
+| Global 输出 | 281 |
+| All 输出 | 14971 |
 
 ## 阶段耗时
 
 | 阶段 | 秒 |
 | --- | --- |
-| fetch | 2.8 |
+| fetch | 3.2 |
 | geo | 1.2 |
-| tcp | 34.8 |
-| real_test | 150.1 |
-| generate | 27.1 |
+| tcp | 36.9 |
+| real_test | 150.6 |
+| generate | 26.9 |
 
 ## 协议分布
 
 | 协议 | 数量 |
 | --- | --- |
-| vless | 20462 |
-| shadowsocks | 8024 |
-| trojan | 6256 |
-| vmess | 5085 |
-| hysteria2 | 188 |
-| shadowsocksr | 97 |
+| vless | 20610 |
+| shadowsocks | 8027 |
+| trojan | 6214 |
+| vmess | 5149 |
+| hysteria2 | 168 |
+| shadowsocksr | 88 |
 | http | 86 |
-| socks | 23 |
+| socks | 20 |
 | hysteria | 6 |
 | tuic | 1 |
 
@@ -56,73 +56,73 @@
 
 | 评分 | 协议 | 延迟(ms) | 抖动(ms) | 延迟分 | 抖动分 | TCP分 | 协议历史分 | 来源历史分 | 来源 | 服务器 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 56.89 | shadowsocks | 255.5 | 611.6 | 30.61 | 0.0 | 10.0 | 6.72 | 9.56 | Au1rxx-base64 | 37.19.198.160 |
-| 56.22 | shadowsocks | 276.1 | 677.5 | 29.94 | 0.0 | 10.0 | 6.72 | 9.56 | Au1rxx-base64 | 37.19.198.236 |
-| 55.88 | shadowsocks | 286.5 | 577.2 | 29.6 | 0.0 | 10.0 | 6.72 | 9.56 | Au1rxx-base64 | 37.19.198.243 |
-| 55.77 | shadowsocks | 290.1 | 708.2 | 29.49 | 0.0 | 10.0 | 6.72 | 9.56 | Au1rxx-base64 | 37.19.198.244 |
-| 54.79 | shadowsocks | 320.3 | 579.1 | 28.51 | 0.0 | 10.0 | 6.72 | 9.56 | Au1rxx-base64 | 156.146.38.169 |
-| 54.67 | shadowsocks | 324.1 | 595.2 | 28.39 | 0.0 | 10.0 | 6.72 | 9.56 | Au1rxx-base64 | 156.146.38.167 |
-| 54.63 | http | 983.6 | 594.7 | 7.01 | 0.0 | 9.76 | 18.7 | 19.16 | snakem982 | 84.239.49.224 |
-| 54.57 | http | 985.6 | 614.8 | 6.95 | 0.0 | 9.76 | 18.7 | 19.16 | snakem982 | 84.239.49.201 |
-| 54.48 | http | 988.4 | 597.0 | 6.86 | 0.0 | 9.76 | 18.7 | 19.16 | snakem982 | 84.239.49.164 |
-| 54.4 | http | 990.8 | 600.8 | 6.78 | 0.0 | 9.76 | 18.7 | 19.16 | snakem982 | 84.239.49.225 |
-| 54.3 | http | 994.3 | 601.5 | 6.67 | 0.0 | 9.77 | 18.7 | 19.16 | snakem982 | 84.239.49.42 |
-| 54.29 | http | 992.9 | 638.5 | 6.71 | 0.0 | 9.72 | 18.7 | 19.16 | snakem982 | 84.239.49.39 |
-| 54.28 | shadowsocks | 266.3 | 628.4 | 30.26 | 0.0 | 10.0 | 6.72 | 7.3 | Surfboard-tg-mixed | 45.55.40.127 |
-| 54.21 | http | 993.9 | 654.2 | 6.68 | 0.0 | 9.67 | 18.7 | 19.16 | snakem982 | 84.239.49.166 |
-| 54.18 | http | 997.4 | 637.9 | 6.56 | 0.0 | 9.76 | 18.7 | 19.16 | snakem982 | 84.239.14.152 |
-| 54.15 | http | 998.6 | 580.8 | 6.53 | 0.0 | 9.76 | 18.7 | 19.16 | snakem982 | 84.239.49.227 |
-| 54.07 | http | 999.2 | 611.4 | 6.51 | 0.0 | 9.7 | 18.7 | 19.16 | snakem982 | 84.239.49.176 |
-| 54.06 | http | 1001.2 | 629.2 | 6.44 | 0.0 | 9.76 | 18.7 | 19.16 | snakem982 | 84.239.49.183 |
-| 54.05 | http | 1002.0 | 590.6 | 6.42 | 0.0 | 9.77 | 18.7 | 19.16 | snakem982 | 84.239.49.171 |
-| 54.02 | shadowsocks | 343.9 | 555.8 | 27.74 | 0.0 | 10.0 | 6.72 | 9.56 | Au1rxx-base64 | 156.146.38.170 |
+| 57.29 | shadowsocks | 456.1 | 191.5 | 24.11 | 7.82 | 9.88 | 4.86 | 10.62 | Au1rxx-base64 | 149.22.87.204 |
+| 57.13 | shadowsocks | 223.4 | 456.0 | 31.65 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 216.105.168.18 |
+| 56.31 | shadowsocks | 452.5 | 220.6 | 24.22 | 6.73 | 9.88 | 4.86 | 10.62 | Au1rxx-base64 | 149.22.87.240 |
+| 56.25 | shadowsocks | 250.4 | 484.7 | 30.77 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 173.244.56.9 |
+| 55.83 | shadowsocks | 456.6 | 230.3 | 24.09 | 6.36 | 9.9 | 4.86 | 10.62 | Au1rxx-base64 | 149.22.87.241 |
+| 54.98 | shadowsocks | 289.9 | 603.1 | 29.5 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 173.244.56.6 |
+| 54.45 | shadowsocks | 306.2 | 493.3 | 28.97 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 149.22.95.183 |
+| 53.81 | vmess | 217.3 | 455.5 | 31.85 | 0.0 | 10.0 | 8.24 | 3.72 | Barabama-yudou | 82.198.246.233 |
+| 53.45 | shadowsocks | 337.1 | 594.2 | 27.97 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 156.146.38.169 |
+| 53.41 | shadowsocks | 338.3 | 601.9 | 27.93 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 156.146.38.167 |
+| 53.3 | shadowsocks | 341.6 | 601.9 | 27.82 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 156.146.38.170 |
+| 52.86 | shadowsocks | 355.2 | 623.2 | 27.38 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 156.146.38.168 |
+| 51.67 | shadowsocks | 391.9 | 747.9 | 26.19 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 149.28.255.6 |
+| 50.94 | vless | 341.1 | 582.9 | 27.83 | 0.0 | 10.0 | 2.49 | 10.62 | Au1rxx-base64 | 34.222.27.94 |
+| 50.39 | shadowsocks | 521.3 | 318.8 | 22.0 | 3.05 | 9.86 | 4.86 | 10.62 | Au1rxx-base64 | 103.106.228.175 |
+| 50.13 | vless | 577.5 | 213.6 | 20.17 | 6.99 | 9.86 | 2.49 | 10.62 | Au1rxx-base64 | 13.193.215.148 |
+| 50.02 | vless | 369.8 | 770.3 | 26.91 | 0.0 | 10.0 | 2.49 | 10.62 | Au1rxx-base64 | 15.204.97.214 |
+| 49.19 | shadowsocks | 468.3 | 662.7 | 23.71 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 37.19.198.236 |
+| 49.04 | shadowsocks | 473.1 | 649.9 | 23.56 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 37.19.198.160 |
+| 48.96 | shadowsocks | 475.6 | 615.6 | 23.48 | 0.0 | 10.0 | 4.86 | 10.62 | Au1rxx-base64 | 37.19.198.243 |
 
 ## 来源质量排行
 
 | 来源 | 评分 | 通过率 | 测试数 | 解析节点 | 建议 |
 | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.958 | 0.977 | 43 | 52 | prefer |
-| Au1rxx-base64 | 0.531 | 0.527 | 74 | 106 | observe |
-| mheidari-all | 0.28 | 0.194 | 93 | 2000 | observe |
-| Surfboard-tg-mixed | 0.26 | 0.179 | 726 | 4171 | observe |
-| roosterkid-openproxylist-v2ray | 0.256 | 0.227 | 22 | 150 | observe |
-| Epodonios-all | 0.255 | None | 0 | 3000 | observe |
+| roosterkid-openproxylist-v2ray | 0.506 | 0.5 | 32 | 150 | observe |
+| Au1rxx-base64 | 0.471 | 0.466 | 73 | 108 | observe |
+| mheidari-all | 0.298 | 0.211 | 76 | 2000 | observe |
+| Surfboard-tg-mixed | 0.289 | 0.208 | 663 | 4226 | observe |
 | MatinGhanbari-all-sub | 0.255 | None | 0 | 3000 | observe |
-| Surfboard-tg-vless | 0.255 | None | 0 | 3165 | observe |
-| barry-far-Sub2 | 0.195 | None | 0 | 494 | observe |
-| barry-far-Sub1 | 0.194 | None | 0 | 476 | observe |
+| Surfboard-tg-vless | 0.255 | None | 0 | 3230 | observe |
+| barry-far-vless | 0.255 | None | 0 | 2000 | observe |
+| 10ium-HighSpeed | 0.209 | None | 0 | 839 | observe |
+| barry-far-Sub2 | 0.195 | None | 0 | 495 | observe |
+| barry-far-Sub1 | 0.194 | None | 0 | 484 | observe |
 | mfuu-v2ray | 0.191 | None | 0 | 390 | observe |
-| Barabama-yudou | 0.186 | 0.333 | 3 | 166 | observe |
-| MatinGhanbari-super-sub | 0.183 | None | 0 | 199 | observe |
+| Epodonios-all | 0.184 | 0.0 | 2 | 3000 | observe |
+| MatinGhanbari-super-sub | 0.183 | None | 0 | 200 | observe |
 | barabama-yudou66 | 0.182 | None | 0 | 163 | observe |
-| barry-far-vless | 0.181 | 0.071 | 14 | 2000 | downweight |
 
 ## 真实测试失败原因
 
 | 目标 | 原因 | 状态/值 | 数量 |
 | --- | --- | --- | --- |
-| 204 | ProxyError | - | 488 |
-| 204 | ClientOSError | - | 379 |
-| 204 | TimeoutError | - | 112 |
-| sing-box exited 1 |  [31mFATAL[0m[0000] create service: initialize outbound[0]: uTLS is required by reality client | - | 57 |
-| speed | ClientOSError | - | 43 |
-| geo | status | 429 | 41 |
-| geo | status | 403 | 30 |
-| cn-block | TimeoutError | - | 19 |
-| speed | TimeoutError | - | 14 |
-| cn-block | ClientOSError | - | 13 |
+| 204 | ClientOSError | - | 500 |
+| 204 | ProxyError | - | 403 |
+| 204 | TimeoutError | - | 84 |
+| geo | status | 429 | 72 |
+| sing-box exited 1 |  [31mFATAL[0m[0000] create service: initialize outbound[0]: uTLS is required by reality client | - | 51 |
+| geo | status | 403 | 27 |
+| cn-block | ClientOSError | - | 11 |
+| cn-block | TimeoutError | - | 11 |
 | sing-box exited 1 |  [31mFATAL[0m[0000] create service: initialize outbound[0]: ShadowsocksR is deprecated and removed in sing-box 1.6.0 | - | 8 |
+| cn-block | ProxyError | - | 8 |
+| speed | TimeoutError | - | 6 |
+| geo | TimeoutError | - | 6 |
+| geo | ProxyError | - | 5 |
+| sing-box exited 1 |  [31mFATAL[0m[0000] create service: initialize outbound[0]: unknown method: i�s���G�k� | - | 4 |
 | sing-box exited 1 |  [31mFATAL[0m[0000] create service: initialize outbound[0]: unknown method: �N|smy���{�4�Ϛ�M�o��}ֻ{� | - | 3 |
-| geo | ClientOSError | - | 3 |
-| cn-block | ProxyError | - | 3 |
-| geo | ProxyError | - | 2 |
 
 ## 输出保护
 
 | 前缀 | 是否保留旧输出 | 上一轮数量 | 本轮建议数量 | 保护比例 |
 | --- | --- | --- | --- | --- |
-| verified | False | 300 | 272 | - |
-| global | False | 300 | 286 | - |
+| verified | False | 272 | 273 | - |
+| global | False | 286 | 281 | - |
 
 ---
 
