@@ -1,22 +1,20 @@
 # 订阅源质量评分
 
-生成时间：2026-06-17 17:33:50
+生成时间：2026-06-17 17:41:30
 
 ## 摘要
 
 | 指标 | 值 |
 | --- | --- |
 | 已评分订阅源总数 | 44 |
-| 建议优先 | 1 |
-| 继续观察 | 43 |
+| 建议优先 | 0 |
+| 继续观察 | 44 |
 | 建议降权 | 0 |
 | 建议禁用 | 0 |
 
 ## 建议优先
 
-| 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| snakem982 | 0.87 | prefer | 28 | 25 | 3 | 0.893 | 73 | 0 |
+无记录。
 
 ## 建议降权
 
@@ -30,13 +28,13 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| snakem982 | 0.87 | prefer | 28 | 25 | 3 | 0.893 | 73 | 0 |
-| DeltaKronecker-all | 0.624 | observe | 147 | 80 | 67 | 0.544 | 7763 | 0 |
-| Surfboard-tg-mixed | 0.4 | observe | 4 | 3 | 1 | 0.75 | 4729 | 0 |
-| nscl5-all | 0.294 | observe | 1 | 1 | 0 | 1.0 | 967 | 0 |
+| DeltaKronecker-all | 0.605 | observe | 139 | 73 | 66 | 0.525 | 7763 | 0 |
+| snakem982 | 0.459 | observe | 55 | 25 | 30 | 0.455 | 73 | 0 |
+| Surfboard-tg-mixed | 0.284 | observe | 6 | 2 | 4 | 0.333 | 4729 | 0 |
+| Barabama-yudou | 0.262 | observe | 1 | 1 | 0 | 1.0 | 166 | 0 |
+| Au1rxx-base64 | 0.26 | observe | 1 | 1 | 0 | 1.0 | 118 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4541 | 0 |
 | Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 3741 | 0 |
-| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 3000 | 0 |
 | MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3000 | 0 |
 | SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 3000 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 2000 | 0 |
@@ -44,28 +42,27 @@
 | mheidari-all | 0.255 | observe | 0 | 0 | 0 | None | 2000 | 0 |
 | ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
-| Barabama-yudou | 0.214 | observe | 2 | 1 | 1 | 0.5 | 166 | 0 |
+| nscl5-all | 0.214 | observe | 0 | 0 | 0 | None | 967 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
+| Epodonios-all | 0.207 | observe | 1 | 0 | 1 | 0.0 | 3000 | 0 |
+| xiaoji235-airport-v2ray-all | 0.199 | observe | 0 | 0 | 0 | None | 588 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 498 | 0 |
 | barry-far-Sub1 | 0.193 | observe | 0 | 0 | 0 | None | 457 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 199 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 | roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
 | mfuu-v2ray | 0.18 | observe | 0 | 0 | 0 | None | 137 | 0 |
-| Au1rxx-base64 | 0.18 | observe | 0 | 0 | 0 | None | 115 | 0 |
-| Au1rxx-clash | 0.18 | observe | 0 | 0 | 0 | None | 115 | 0 |
+| Au1rxx-clash | 0.18 | observe | 0 | 0 | 0 | None | 118 | 0 |
 | zhangkai | 0.178 | observe | 0 | 0 | 0 | None | 73 | 0 |
 | ts-sf-Fly | 0.178 | observe | 0 | 0 | 0 | None | 71 | 0 |
 | ts-sf | 0.178 | observe | 0 | 0 | 0 | None | 70 | 0 |
 | chromego_merge | 0.177 | observe | 0 | 0 | 0 | None | 52 | 0 |
 | peasoft-NoMoreWalls | 0.176 | observe | 0 | 0 | 0 | None | 36 | 0 |
-| ermaozi | 0.176 | observe | 0 | 0 | 0 | None | 29 | 0 |
 
 ## 综合后 30
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| xiaoji235-airport-v2ray-all | 0.113 | observe | 3 | 0 | 3 | 0.0 | 588 | 0 |
 | ninja-tuic | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
 | ninja-hy2 | 0.175 | observe | 0 | 0 | 0 | None | 3 | 0 |
 | tonykong-base64 | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
@@ -73,7 +70,7 @@
 | Pawdroid | 0.175 | observe | 0 | 0 | 0 | None | 8 | 0 |
 | freefq | 0.176 | observe | 0 | 0 | 0 | None | 14 | 0 |
 | ripaojiedian-freenode | 0.176 | observe | 0 | 0 | 0 | None | 14 | 0 |
-| abc-configs-readme-latest30 | 0.176 | observe | 0 | 0 | 0 | None | 19 | 0 |
+| abc-configs-readme-latest30 | 0.176 | observe | 0 | 0 | 0 | None | 17 | 0 |
 | Barabama-we | 0.176 | observe | 0 | 0 | 0 | None | 23 | 0 |
 | barabama-nodefree | 0.176 | observe | 0 | 0 | 0 | None | 23 | 0 |
 | Mr8AHAL | 0.176 | observe | 0 | 0 | 0 | None | 26 | 0 |
@@ -85,16 +82,17 @@
 | ts-sf | 0.178 | observe | 0 | 0 | 0 | None | 70 | 0 |
 | ts-sf-Fly | 0.178 | observe | 0 | 0 | 0 | None | 71 | 0 |
 | zhangkai | 0.178 | observe | 0 | 0 | 0 | None | 73 | 0 |
-| Au1rxx-base64 | 0.18 | observe | 0 | 0 | 0 | None | 115 | 0 |
-| Au1rxx-clash | 0.18 | observe | 0 | 0 | 0 | None | 115 | 0 |
+| Au1rxx-clash | 0.18 | observe | 0 | 0 | 0 | None | 118 | 0 |
 | mfuu-v2ray | 0.18 | observe | 0 | 0 | 0 | None | 137 | 0 |
 | roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 199 | 0 |
 | barry-far-Sub1 | 0.193 | observe | 0 | 0 | 0 | None | 457 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 498 | 0 |
+| xiaoji235-airport-v2ray-all | 0.199 | observe | 0 | 0 | 0 | None | 588 | 0 |
+| Epodonios-all | 0.207 | observe | 1 | 0 | 1 | 0.0 | 3000 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
-| Barabama-yudou | 0.214 | observe | 2 | 1 | 1 | 0.5 | 166 | 0 |
+| nscl5-all | 0.214 | observe | 0 | 0 | 0 | None | 967 | 0 |
 
 ## 说明
 
