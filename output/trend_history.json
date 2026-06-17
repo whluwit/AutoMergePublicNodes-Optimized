@@ -1,37 +1,7 @@
 {
-  "updated_at": "2026-06-17 17:07:44",
+  "updated_at": "2026-06-17 17:33:50",
   "keep": 30,
   "runs": [
-    {
-      "timestamp": "2026-06-12 00:12:18",
-      "duration_sec": 228.4,
-      "nodes_raw": 39955,
-      "nodes_dedup": 15028,
-      "nodes_tcp_ok": 1500,
-      "nodes_real_ok": 420,
-      "nodes_verified_output": 300,
-      "nodes_global_output": 300,
-      "nodes_global_extra_from_cn_block": 14,
-      "real_test_errors": {
-        "sing-box exited 1": 76,
-        "204": 877,
-        "speed": 65,
-        "cn-block": 23,
-        "geo": 39
-      },
-      "output_guard": {
-        "verified": {
-          "preserved": false,
-          "previous_count": 300,
-          "proposed_count": 300
-        },
-        "global": {
-          "preserved": false,
-          "previous_count": 300,
-          "proposed_count": 300
-        }
-      }
-    },
     {
       "timestamp": "2026-06-12 00:22:08",
       "duration_sec": 216.1,
@@ -899,18 +869,36 @@
           "proposed_count": 81
         }
       }
+    },
+    {
+      "timestamp": "2026-06-17 17:33:50",
+      "duration_sec": 124.2,
+      "nodes_raw": 43725,
+      "nodes_dedup": 18176,
+      "nodes_tcp_ok": 1500,
+      "nodes_real_ok": 110,
+      "nodes_verified_output": 110,
+      "nodes_global_output": 111,
+      "nodes_global_extra_from_cn_block": 1,
+      "real_test_errors": {
+        "204": 26,
+        "speed": 31,
+        "cn-block": 9,
+        "geo": 9
+      },
+      "output_guard": {
+        "verified": {
+          "preserved": false,
+          "previous_count": 78,
+          "proposed_count": 110
+        },
+        "global": {
+          "preserved": false,
+          "previous_count": 81,
+          "proposed_count": 111
+        }
+      }
     }
   ],
-  "alerts": [
-    {
-      "type": "verified_downtrend_4_runs",
-      "message": "verified output decreased for 4 consecutive runs",
-      "values": [
-        257,
-        236,
-        140,
-        78
-      ]
-    }
-  ]
+  "alerts": []
 }

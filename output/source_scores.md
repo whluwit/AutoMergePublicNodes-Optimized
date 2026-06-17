@@ -1,14 +1,14 @@
 # 订阅源质量评分
 
-生成时间：2026-06-17 17:07:44
+生成时间：2026-06-17 17:33:50
 
 ## 摘要
 
 | 指标 | 值 |
 | --- | --- |
 | 已评分订阅源总数 | 44 |
-| 建议优先 | 2 |
-| 继续观察 | 42 |
+| 建议优先 | 1 |
+| 继续观察 | 43 |
 | 建议降权 | 0 |
 | 建议禁用 | 0 |
 
@@ -16,8 +16,7 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| snakem982 | 0.791 | prefer | 15 | 15 | 0 | 1.0 | 73 | 0 |
-| DeltaKronecker-all | 0.732 | prefer | 90 | 59 | 31 | 0.656 | 7763 | 0 |
+| snakem982 | 0.87 | prefer | 28 | 25 | 3 | 0.893 | 73 | 0 |
 
 ## 建议降权
 
@@ -31,9 +30,9 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| snakem982 | 0.791 | prefer | 15 | 15 | 0 | 1.0 | 73 | 0 |
-| DeltaKronecker-all | 0.732 | prefer | 90 | 59 | 31 | 0.656 | 7763 | 0 |
-| Surfboard-tg-mixed | 0.3 | observe | 5 | 2 | 3 | 0.4 | 4729 | 0 |
+| snakem982 | 0.87 | prefer | 28 | 25 | 3 | 0.893 | 73 | 0 |
+| DeltaKronecker-all | 0.624 | observe | 147 | 80 | 67 | 0.544 | 7763 | 0 |
+| Surfboard-tg-mixed | 0.4 | observe | 4 | 3 | 1 | 0.75 | 4729 | 0 |
 | nscl5-all | 0.294 | observe | 1 | 1 | 0 | 1.0 | 967 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4541 | 0 |
 | Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 3741 | 0 |
@@ -47,9 +46,8 @@
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | Barabama-yudou | 0.214 | observe | 2 | 1 | 1 | 0.5 | 166 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
-| xiaoji235-airport-v2ray-all | 0.199 | observe | 0 | 0 | 0 | None | 588 | 0 |
-| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 497 | 0 |
-| barry-far-Sub1 | 0.192 | observe | 0 | 0 | 0 | None | 429 | 0 |
+| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 498 | 0 |
+| barry-far-Sub1 | 0.193 | observe | 0 | 0 | 0 | None | 457 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 199 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 | roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
@@ -61,11 +59,13 @@
 | ts-sf | 0.178 | observe | 0 | 0 | 0 | None | 70 | 0 |
 | chromego_merge | 0.177 | observe | 0 | 0 | 0 | None | 52 | 0 |
 | peasoft-NoMoreWalls | 0.176 | observe | 0 | 0 | 0 | None | 36 | 0 |
+| ermaozi | 0.176 | observe | 0 | 0 | 0 | None | 29 | 0 |
 
 ## 综合后 30
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| xiaoji235-airport-v2ray-all | 0.113 | observe | 3 | 0 | 3 | 0.0 | 588 | 0 |
 | ninja-tuic | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
 | ninja-hy2 | 0.175 | observe | 0 | 0 | 0 | None | 3 | 0 |
 | tonykong-base64 | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
@@ -91,9 +91,8 @@
 | roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 199 | 0 |
-| barry-far-Sub1 | 0.192 | observe | 0 | 0 | 0 | None | 429 | 0 |
-| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 497 | 0 |
-| xiaoji235-airport-v2ray-all | 0.199 | observe | 0 | 0 | 0 | None | 588 | 0 |
+| barry-far-Sub1 | 0.193 | observe | 0 | 0 | 0 | None | 457 | 0 |
+| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 498 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
 | Barabama-yudou | 0.214 | observe | 2 | 1 | 1 | 0.5 | 166 | 0 |
 
