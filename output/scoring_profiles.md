@@ -4,30 +4,30 @@
 
 ## 权重
 
-| 模板 | latency | jitter | tcp | protocol_history | source_history | 总和 |
-| --- | --- | --- | --- | --- | --- | --- |
-| scoring.low_latency.yaml | 55 | 15 | 10 | 10 | 10 | 100 |
-| scoring.source_quality.yaml | 20 | 15 | 10 | 25 | 30 | 100 |
-| scoring.stability.yaml | 20 | 25 | 10 | 20 | 25 | 100 |
-| scoring.yaml | 35 | 15 | 10 | 20 | 20 | 100 |
+| 模板 | latency | jitter | tcp | speed | fingerprint_resistance | protocol_history | source_history | 总和 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| scoring.low_latency.yaml | 45 | 15 | 10 | 15 | 5 | 5 | 5 | 100 |
+| scoring.source_quality.yaml | 18 | 13 | 10 | 5 | 5 | 22 | 27 | 100 |
+| scoring.stability.yaml | 18 | 22 | 10 | 5 | 5 | 18 | 22 | 100 |
+| scoring.yaml | 25 | 15 | 10 | 10 | 5 | 15 | 20 | 100 |
 
 ## 阈值
 
-| 模板 | excellent_latency_ms | bad_latency_ms | bad_jitter_ms | excellent_tcp_latency_ms | bad_tcp_latency_ms |
-| --- | --- | --- | --- | --- | --- |
-| scoring.low_latency.yaml | 100 | 1000 | 400 | 100 | 1000 |
-| scoring.source_quality.yaml | 150 | 1400 | 400 | 100 | 1000 |
-| scoring.stability.yaml | 150 | 1500 | 300 | 100 | 1000 |
-| scoring.yaml | 120 | 1200 | 400 | 100 | 1000 |
+| 模板 | excellent_latency_ms | bad_latency_ms | bad_jitter_ms | excellent_tcp_latency_ms | bad_tcp_latency_ms | excellent_speed_kbps | bad_speed_kbps |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| scoring.low_latency.yaml | 100 | 1000 | 400 | 100 | 1000 | 500 | 10 |
+| scoring.source_quality.yaml | 150 | 1400 | 400 | 100 | 1000 | 500 | 10 |
+| scoring.stability.yaml | 150 | 1500 | 300 | 100 | 1000 | 500 | 10 |
+| scoring.yaml | 120 | 1200 | 400 | 100 | 1000 | 500 | 10 |
 
 ## 默认值
 
-| 模板 | missing_tcp_score | missing_history_score |
-| --- | --- | --- |
-| scoring.low_latency.yaml | 0.5 | 0.5 |
-| scoring.source_quality.yaml | 0.5 | 0.5 |
-| scoring.stability.yaml | 0.5 | 0.5 |
-| scoring.yaml | 0.5 | 0.5 |
+| 模板 | missing_tcp_score | missing_history_score | missing_fingerprint_score |
+| --- | --- | --- | --- |
+| scoring.low_latency.yaml | 0.5 | 0.5 | 0.3 |
+| scoring.source_quality.yaml | 0.5 | 0.5 | 0.3 |
+| scoring.stability.yaml | 0.5 | 0.5 | 0.3 |
+| scoring.yaml | 0.5 | 0.5 | 0.3 |
 
 ---
 
