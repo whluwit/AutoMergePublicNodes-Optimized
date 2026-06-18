@@ -1,6 +1,6 @@
 # Source Quality Scores
 
-Generated at: 2026-06-18 04:03:51
+Generated at: 2026-06-18 04:21:59
 
 ## Summary
 
@@ -8,8 +8,8 @@ Generated at: 2026-06-18 04:03:51
 | --- | --- |
 | Total scored sources | 44 |
 | Prefer | 4 |
-| Observe | 40 |
-| Downweight | 0 |
+| Observe | 39 |
+| Downweight | 1 |
 | Disable candidates | 0 |
 
 ## Prefer
@@ -17,13 +17,15 @@ Generated at: 2026-06-18 04:03:51
 | Source | Score | Recommendation | Tested | Pass | Fail | Pass Rate | Parsed | Dead |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.966 | prefer | 25 | 25 | 0 | 1.0 | 73 | 0 |
-| Surfboard-tg-mixed | 0.943 | prefer | 312 | 270 | 42 | 0.865 | 4586 | 0 |
-| Au1rxx-base64 | 0.828 | prefer | 88 | 73 | 15 | 0.83 | 141 | 0 |
-| mheidari-all | 0.748 | prefer | 182 | 122 | 60 | 0.67 | 13927 | 0 |
+| Surfboard-tg-mixed | 0.941 | prefer | 350 | 302 | 48 | 0.863 | 4586 | 0 |
+| mheidari-all | 0.837 | prefer | 216 | 164 | 52 | 0.759 | 13927 | 0 |
+| Au1rxx-base64 | 0.817 | prefer | 83 | 68 | 15 | 0.819 | 126 | 0 |
 
 ## Downweight
 
-No rows.
+| Source | Score | Recommendation | Tested | Pass | Fail | Pass Rate | Parsed | Dead |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ninja-vless | 0.128 | downweight | 10 | 0 | 10 | 0.0 | 1791 | 0 |
 
 ## Disable Candidates
 
@@ -34,14 +36,14 @@ No rows.
 | Source | Score | Recommendation | Tested | Pass | Fail | Pass Rate | Parsed | Dead |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.966 | prefer | 25 | 25 | 0 | 1.0 | 73 | 0 |
-| Surfboard-tg-mixed | 0.943 | prefer | 312 | 270 | 42 | 0.865 | 4586 | 0 |
-| Au1rxx-base64 | 0.828 | prefer | 88 | 73 | 15 | 0.83 | 141 | 0 |
-| mheidari-all | 0.748 | prefer | 182 | 122 | 60 | 0.67 | 13927 | 0 |
-| DeltaKronecker-all | 0.403 | observe | 509 | 164 | 345 | 0.322 | 7763 | 0 |
+| Surfboard-tg-mixed | 0.941 | prefer | 350 | 302 | 48 | 0.863 | 4586 | 0 |
+| mheidari-all | 0.837 | prefer | 216 | 164 | 52 | 0.759 | 13927 | 0 |
+| Au1rxx-base64 | 0.817 | prefer | 83 | 68 | 15 | 0.819 | 126 | 0 |
+| DeltaKronecker-all | 0.58 | observe | 112 | 56 | 56 | 0.5 | 7763 | 0 |
 | Barabama-yudou | 0.318 | observe | 2 | 2 | 0 | 1.0 | 166 | 0 |
 | xiaoji235-airport-v2ray-all | 0.289 | observe | 1 | 1 | 0 | 1.0 | 847 | 0 |
 | Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 6401 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 6039 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 5959 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4541 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 4274 | 0 |
 | barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 4240 | 0 |
@@ -56,7 +58,7 @@ No rows.
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 198 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 | roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
-| Au1rxx-clash | 0.181 | observe | 0 | 0 | 0 | None | 141 | 0 |
+| Au1rxx-clash | 0.18 | observe | 0 | 0 | 0 | None | 126 | 0 |
 | zhangkai | 0.178 | observe | 0 | 0 | 0 | None | 73 | 0 |
 | ts-sf-Fly | 0.177 | observe | 0 | 0 | 0 | None | 61 | 0 |
 | ts-sf | 0.177 | observe | 0 | 0 | 0 | None | 60 | 0 |
@@ -68,7 +70,7 @@ No rows.
 
 | Source | Score | Recommendation | Tested | Pass | Fail | Pass Rate | Parsed | Dead |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ninja-vless | 0.152 | observe | 4 | 0 | 4 | 0.0 | 1791 | 0 |
+| ninja-vless | 0.128 | downweight | 10 | 0 | 10 | 0.0 | 1791 | 0 |
 | ninja-tuic | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
 | ninja-hy2 | 0.175 | observe | 0 | 0 | 0 | None | 3 | 0 |
 | tonykong-base64 | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
@@ -88,7 +90,7 @@ No rows.
 | ts-sf | 0.177 | observe | 0 | 0 | 0 | None | 60 | 0 |
 | ts-sf-Fly | 0.177 | observe | 0 | 0 | 0 | None | 61 | 0 |
 | zhangkai | 0.178 | observe | 0 | 0 | 0 | None | 73 | 0 |
-| Au1rxx-clash | 0.181 | observe | 0 | 0 | 0 | None | 141 | 0 |
+| Au1rxx-clash | 0.18 | observe | 0 | 0 | 0 | None | 126 | 0 |
 | roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 198 | 0 |
