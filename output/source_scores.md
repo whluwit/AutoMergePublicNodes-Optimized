@@ -1,6 +1,6 @@
 # Source Quality Scores
 
-Generated at: 2026-06-18 04:21:59
+Generated at: 2026-06-18 04:44:00
 
 ## Summary
 
@@ -17,15 +17,15 @@ Generated at: 2026-06-18 04:21:59
 | Source | Score | Recommendation | Tested | Pass | Fail | Pass Rate | Parsed | Dead |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.966 | prefer | 25 | 25 | 0 | 1.0 | 73 | 0 |
-| Surfboard-tg-mixed | 0.941 | prefer | 350 | 302 | 48 | 0.863 | 4586 | 0 |
-| mheidari-all | 0.837 | prefer | 216 | 164 | 52 | 0.759 | 13927 | 0 |
-| Au1rxx-base64 | 0.817 | prefer | 83 | 68 | 15 | 0.819 | 126 | 0 |
+| Surfboard-tg-mixed | 0.926 | prefer | 356 | 302 | 54 | 0.848 | 4586 | 0 |
+| Au1rxx-base64 | 0.868 | prefer | 78 | 68 | 10 | 0.872 | 126 | 0 |
+| mheidari-all | 0.845 | prefer | 215 | 165 | 50 | 0.767 | 13927 | 0 |
 
 ## Downweight
 
 | Source | Score | Recommendation | Tested | Pass | Fail | Pass Rate | Parsed | Dead |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ninja-vless | 0.128 | downweight | 10 | 0 | 10 | 0.0 | 1791 | 0 |
+| ninja-vless | 0.14 | downweight | 6 | 0 | 6 | 0.0 | 1791 | 0 |
 
 ## Disable Candidates
 
@@ -36,13 +36,12 @@ No rows.
 | Source | Score | Recommendation | Tested | Pass | Fail | Pass Rate | Parsed | Dead |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.966 | prefer | 25 | 25 | 0 | 1.0 | 73 | 0 |
-| Surfboard-tg-mixed | 0.941 | prefer | 350 | 302 | 48 | 0.863 | 4586 | 0 |
-| mheidari-all | 0.837 | prefer | 216 | 164 | 52 | 0.759 | 13927 | 0 |
-| Au1rxx-base64 | 0.817 | prefer | 83 | 68 | 15 | 0.819 | 126 | 0 |
-| DeltaKronecker-all | 0.58 | observe | 112 | 56 | 56 | 0.5 | 7763 | 0 |
+| Surfboard-tg-mixed | 0.926 | prefer | 356 | 302 | 54 | 0.848 | 4586 | 0 |
+| Au1rxx-base64 | 0.868 | prefer | 78 | 68 | 10 | 0.872 | 126 | 0 |
+| mheidari-all | 0.845 | prefer | 215 | 165 | 50 | 0.767 | 13927 | 0 |
+| DeltaKronecker-all | 0.493 | observe | 124 | 51 | 73 | 0.411 | 7763 | 0 |
+| Epodonios-all | 0.335 | observe | 1 | 1 | 0 | 1.0 | 6401 | 0 |
 | Barabama-yudou | 0.318 | observe | 2 | 2 | 0 | 1.0 | 166 | 0 |
-| xiaoji235-airport-v2ray-all | 0.289 | observe | 1 | 1 | 0 | 1.0 | 847 | 0 |
-| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 6401 | 0 |
 | SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 5959 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4541 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 4274 | 0 |
@@ -51,6 +50,7 @@ No rows.
 | Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 3590 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | nscl5-all | 0.217 | observe | 0 | 0 | 0 | None | 1044 | 0 |
+| xiaoji235-airport-v2ray-all | 0.209 | observe | 0 | 0 | 0 | None | 847 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 500 | 0 |
 | barry-far-Sub1 | 0.193 | observe | 0 | 0 | 0 | None | 451 | 0 |
@@ -70,7 +70,7 @@ No rows.
 
 | Source | Score | Recommendation | Tested | Pass | Fail | Pass Rate | Parsed | Dead |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ninja-vless | 0.128 | downweight | 10 | 0 | 10 | 0.0 | 1791 | 0 |
+| ninja-vless | 0.14 | downweight | 6 | 0 | 6 | 0.0 | 1791 | 0 |
 | ninja-tuic | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
 | ninja-hy2 | 0.175 | observe | 0 | 0 | 0 | None | 3 | 0 |
 | tonykong-base64 | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
@@ -98,8 +98,8 @@ No rows.
 | barry-far-Sub1 | 0.193 | observe | 0 | 0 | 0 | None | 451 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 500 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
+| xiaoji235-airport-v2ray-all | 0.209 | observe | 0 | 0 | 0 | None | 847 | 0 |
 | nscl5-all | 0.217 | observe | 0 | 0 | 0 | None | 1044 | 0 |
-| moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 
 ## Notes
 

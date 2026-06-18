@@ -1,6 +1,6 @@
 # Source Cleanup Suggestions
 
-Generated at: 2026-06-18 04:21:59
+Generated at: 2026-06-18 04:44:00
 
 This report is read-only guidance. Review entries before editing `config/sources.yaml`.
 
@@ -21,16 +21,16 @@ No rows.
 
 | Source | Score | Tested | Pass Rate | Parsed | Dead | Reason | URL |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| ninja-vless | 0.128 | 10 | 0.0 | 1791 | 0 | low score with tested >= 5 | https://raw.githubusercontent.com/ninjastrikers/v2ray-configs/main/splitted/vless.txt |
+| ninja-vless | 0.14 | 6 | 0.0 | 1791 | 0 | low score with tested >= 5 | https://raw.githubusercontent.com/ninjastrikers/v2ray-configs/main/splitted/vless.txt |
 
 ## Prefer / Keep Priority
 
 | Source | Score | Tested | Pass Rate | Parsed | Dead | Reason | URL |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.966 | 25 | 1.0 | 73 | 0 | high source score | https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml |
-| Surfboard-tg-mixed | 0.941 | 350 | 0.863 | 4586 | 0 | high source score | https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed |
-| mheidari-all | 0.837 | 216 | 0.759 | 13927 | 0 | high source score | https://raw.githubusercontent.com/mheidari98/.proxy/main/all |
-| Au1rxx-base64 | 0.817 | 83 | 0.819 | 126 | 0 | high source score | https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt |
+| Surfboard-tg-mixed | 0.926 | 356 | 0.848 | 4586 | 0 | high source score | https://raw.githubusercontent.com/Surfboardv2ray/TGParse/main/splitted/mixed |
+| Au1rxx-base64 | 0.868 | 78 | 0.872 | 126 | 0 | high source score | https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/v2ray-base64.txt |
+| mheidari-all | 0.845 | 215 | 0.767 | 13927 | 0 | high source score | https://raw.githubusercontent.com/mheidari98/.proxy/main/all |
 
 ## Observe
 
@@ -41,8 +41,8 @@ No rows.
 | Au1rxx-clash | 0.18 | 0 | None | 126 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/Au1rxx/free-vpn-subscriptions/main/output/clash.yaml |
 | Barabama-we | 0.176 | 0 | None | 23 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/wenode.txt |
 | Barabama-yudou | 0.318 | 2 | 1.0 | 166 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/Barabama/FreeNodes/main/nodes/yudou66.txt |
-| DeltaKronecker-all | 0.58 | 112 | 0.5 | 7763 | 0 | insufficient evidence or neutral score | https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/all_configs.txt |
-| Epodonios-all | 0.255 | 0 | None | 6401 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt |
+| DeltaKronecker-all | 0.493 | 124 | 0.411 | 7763 | 0 | insufficient evidence or neutral score | https://github.com/Delta-Kronecker/V2ray-Config/raw/refs/heads/main/config/all_configs.txt |
+| Epodonios-all | 0.335 | 1 | 1.0 | 6401 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/Epodonios/v2ray-configs/main/All_Configs_Sub.txt |
 | MatinGhanbari-all-sub | 0.255 | 0 | None | 3977 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/refs/heads/main/subscriptions/v2ray/all_sub.txt |
 | MatinGhanbari-super-sub | 0.183 | 0 | None | 198 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/MatinGhanbari/v2ray-configs/refs/heads/main/subscriptions/v2ray/super-sub.txt |
 | Mr8AHAL | 0.176 | 0 | None | 26 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/Mr8AHAL/v2ray/main/SERVER.txt |
@@ -73,5 +73,5 @@ No rows.
 | ts-sf | 0.177 | 0 | None | 60 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/ts-sf/fly/main/clash |
 | ts-sf-Fly | 0.177 | 0 | None | 61 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/ts-sf/Fly/main/v2 |
 | vxiaov | 0.176 | 0 | None | 28 | 0 | insufficient evidence or neutral score | https://cdn.jsdelivr.net/gh/vxiaov/free_proxies@main/clash/clash.provider.yaml |
-| xiaoji235-airport-v2ray-all | 0.289 | 1 | 1.0 | 847 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt |
+| xiaoji235-airport-v2ray-all | 0.209 | 0 | None | 847 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt |
 | zhangkai | 0.178 | 0 | None | 73 | 0 | insufficient evidence or neutral score | https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml |
