@@ -1,14 +1,14 @@
 # 订阅源质量评分
 
-生成时间：2026-07-02 02:53:29
+生成时间：2026-07-02 08:53:23
 
 ## 摘要
 
 | 指标 | 值 |
 | --- | --- |
 | 已评分订阅源总数 | 107 |
-| 建议优先 | 3 |
-| 继续观察 | 103 |
+| 建议优先 | 4 |
+| 继续观察 | 102 |
 | 建议降权 | 1 |
 | 建议禁用 | 0 |
 
@@ -17,14 +17,15 @@
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.976 | prefer | 36 | 36 | 0 | 1.0 | 61 | 0 |
-| Surfboard-tg-mixed | 0.826 | prefer | 344 | 257 | 87 | 0.747 | 5714 | 0 |
-| Au1rxx-base64 | 0.765 | prefer | 69 | 53 | 16 | 0.768 | 103 | 0 |
+| Surfboard-tg-mixed | 0.836 | prefer | 219 | 166 | 53 | 0.758 | 5705 | 0 |
+| Au1rxx-base64 | 0.746 | prefer | 60 | 45 | 15 | 0.75 | 106 | 0 |
+| mheidari-all | 0.724 | prefer | 85 | 55 | 30 | 0.647 | 15877 | 0 |
 
 ## 建议降权
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| xiaoji235-airport-v2ray-all | 0.113 | downweight | 8 | 0 | 8 | 0.0 | 1293 | 0 |
+| xiaoji235-airport-v2ray-all | 0.12 | downweight | 6 | 0 | 6 | 0.0 | 1293 | 0 |
 
 ## 建议禁用
 
@@ -35,35 +36,35 @@
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | snakem982 | 0.976 | prefer | 36 | 36 | 0 | 1.0 | 61 | 0 |
-| Surfboard-tg-mixed | 0.826 | prefer | 344 | 257 | 87 | 0.747 | 5714 | 0 |
-| Au1rxx-base64 | 0.765 | prefer | 69 | 53 | 16 | 0.768 | 103 | 0 |
-| mheidari-all | 0.561 | observe | 316 | 152 | 164 | 0.481 | 16042 | 0 |
-| DeltaKronecker-all | 0.35 | observe | 343 | 92 | 251 | 0.268 | 7631 | 0 |
-| Barabama-yudou | 0.318 | observe | 2 | 2 | 0 | 1.0 | 166 | 0 |
-| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 6523 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 6496 | 0 |
-| mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 5331 | 0 |
-| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 4744 | 0 |
-| 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 4308 | 0 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 4236 | 0 |
-| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3998 | 0 |
+| Surfboard-tg-mixed | 0.836 | prefer | 219 | 166 | 53 | 0.758 | 5705 | 0 |
+| Au1rxx-base64 | 0.746 | prefer | 60 | 45 | 15 | 0.75 | 106 | 0 |
+| mheidari-all | 0.724 | prefer | 85 | 55 | 30 | 0.647 | 15877 | 0 |
+| DeltaKronecker-all | 0.694 | observe | 205 | 126 | 79 | 0.615 | 7467 | 0 |
+| tg-LonUp_M | 0.318 | observe | 2 | 2 | 0 | 1.0 | 179 | 0 |
+| nscl5-all | 0.301 | observe | 1 | 1 | 0 | 1.0 | 1162 | 0 |
+| Barabama-yudou | 0.262 | observe | 1 | 1 | 0 | 1.0 | 166 | 0 |
+| ermaozi | 0.256 | observe | 1 | 1 | 0 | 1.0 | 20 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 6693 | 0 |
+| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 6497 | 0 |
+| mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 5365 | 0 |
+| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 4756 | 0 |
+| 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 4254 | 0 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 4232 | 0 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3999 | 0 |
+| ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
-| nscl5-all | 0.221 | observe | 0 | 0 | 0 | None | 1162 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
-| ninja-vless | 0.199 | observe | 1 | 0 | 1 | 0.0 | 1791 | 0 |
 | barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 500 | 0 |
-| barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 487 | 0 |
+| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 488 | 0 |
+| MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-ConfigV2rayNG | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
-| MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 198 | 0 |
+| tg-oneclickvpnkeys | 0.183 | observe | 0 | 0 | 0 | None | 193 | 0 |
 | tg-V2RAYProxy | 0.182 | observe | 0 | 0 | 0 | None | 187 | 0 |
-| ts-sf-Fly | 0.182 | observe | 0 | 0 | 0 | None | 185 | 0 |
-| ts-sf | 0.182 | observe | 0 | 0 | 0 | None | 184 | 0 |
-| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 180 | 0 |
-| tg-oneclickvpnkeys | 0.182 | observe | 0 | 0 | 0 | None | 175 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 | tg-configfa | 0.181 | observe | 0 | 0 | 0 | None | 153 | 0 |
+| mfuu-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 152 | 0 |
 | roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
-| tg-proxy_mtm | 0.181 | observe | 0 | 0 | 0 | None | 145 | 0 |
+| tg-prrofile_purple | 0.18 | observe | 0 | 0 | 0 | None | 132 | 0 |
 
 ## 综合后 30
 
@@ -74,7 +75,7 @@
 | tg-ShadowsocksM | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | tg-V2rayngVpn | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | tg-ViProxys | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
-| xiaoji235-airport-v2ray-all | 0.113 | downweight | 8 | 0 | 8 | 0.0 | 1293 | 0 |
+| xiaoji235-airport-v2ray-all | 0.12 | downweight | 6 | 0 | 6 | 0.0 | 1293 | 0 |
 | ninja-tuic | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
 | tg-GrizzlyVPN | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
 | tg-Ahmedhamoomi_Servers | 0.175 | observe | 0 | 0 | 0 | None | 2 | 0 |
@@ -92,13 +93,13 @@
 | tg-ArV2ray | 0.175 | observe | 0 | 0 | 0 | None | 6 | 0 |
 | tg-redfree8 | 0.175 | observe | 0 | 0 | 0 | None | 6 | 0 |
 | tg-BESTFORBEST66 | 0.175 | observe | 0 | 0 | 0 | None | 8 | 0 |
-| tg-abc_configs | 0.175 | observe | 0 | 0 | 0 | None | 9 | 0 |
 | tg-proxy_kafee | 0.175 | observe | 0 | 0 | 0 | None | 9 | 0 |
 | tg-Letiranbreath | 0.175 | observe | 0 | 0 | 0 | None | 10 | 0 |
-| tg-V2RayRootFree | 0.175 | observe | 0 | 0 | 0 | None | 11 | 0 |
+| tg-V2RayRootFree | 0.175 | observe | 0 | 0 | 0 | None | 10 | 0 |
 | tg-shadowproxy66 | 0.175 | observe | 0 | 0 | 0 | None | 11 | 0 |
 | tg-CaV2ray | 0.175 | observe | 0 | 0 | 0 | None | 12 | 0 |
 | tg-VmessProtocol | 0.175 | observe | 0 | 0 | 0 | None | 12 | 0 |
+| tg-vpnfail_vless | 0.175 | observe | 0 | 0 | 0 | None | 12 | 0 |
 
 ## 说明
 
