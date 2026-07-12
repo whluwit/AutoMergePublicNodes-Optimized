@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-07-12 13:12:17 |
+| 更新时间 | 2026-07-12 19:02:26 |
 | 版本 | 2.4.0 |
 | 订阅源 | 103/107 |
-| 原始节点 | 77487 |
-| 去重后 | 24240 |
+| 原始节点 | 77603 |
+| 去重后 | 24151 |
 | TCP 可达 | 3000 |
-| 真实可用 | 268 |
-| 真测通过率 | 8.9% |
-| Verified 输出 | 268 |
-| Global 输出 | 285 |
-| All 输出 | 24240 |
+| 真实可用 | 158 |
+| 真测通过率 | 5.3% |
+| Verified 输出 | 158 |
+| Global 输出 | 176 |
+| All 输出 | 24151 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,20 +337,20 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 75.22 | trojan | 321.8 | DeltaKronecker-all |
-| 72.76 | trojan | 340.4 | DeltaKronecker-all |
-| 71.95 | trojan | 351.3 | DeltaKronecker-all |
-| 71.73 | trojan | 250.4 | Surfboard-tg-mixed |
-| 71.52 | trojan | 402.2 | DeltaKronecker-all |
+| 70.22 | trojan | 282.5 | Surfboard-tg-mixed |
+| 68.34 | trojan | 352.7 | mheidari-all |
+| 66.46 | vless | 220.9 | mheidari-all |
+| 66.11 | trojan | 320.7 | Surfboard-tg-mixed |
+| 66.09 | trojan | 353.8 | DeltaKronecker-all |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
 | snakem982 | 0.976 | 36 | prefer |
-| Surfboard-tg-mixed | 0.81 | 109 | prefer |
-| DeltaKronecker-all | 0.68 | 173 | observe |
-| mheidari-all | 0.641 | 80 | observe |
+| Surfboard-tg-mixed | 0.705 | 94 | prefer |
+| mheidari-all | 0.629 | 49 | observe |
+| DeltaKronecker-all | 0.448 | 93 | observe |
 | xiaoji235-airport-v2ray-all | 0.315 | 1 | observe |
 
 <!-- AUTONODES_STATS_END -->
