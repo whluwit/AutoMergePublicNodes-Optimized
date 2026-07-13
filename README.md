@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-07-13 09:20:10 |
+| 更新时间 | 2026-07-13 14:26:54 |
 | 版本 | 2.4.0 |
 | 订阅源 | 103/107 |
-| 原始节点 | 76605 |
-| 去重后 | 23706 |
+| 原始节点 | 77657 |
+| 去重后 | 23879 |
 | TCP 可达 | 3000 |
-| 真实可用 | 291 |
-| 真测通过率 | 9.7% |
-| Verified 输出 | 291 |
-| Global 输出 | 300 |
-| All 输出 | 23706 |
+| 真实可用 | 226 |
+| 真测通过率 | 7.5% |
+| Verified 输出 | 226 |
+| Global 输出 | 239 |
+| All 输出 | 23879 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,21 +337,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 72.48 | trojan | 275.9 | Surfboard-tg-mixed |
-| 71.62 | trojan | 203.0 | DeltaKronecker-all |
-| 70.69 | trojan | 304.0 | DeltaKronecker-all |
-| 70.47 | trojan | 307.7 | DeltaKronecker-all |
-| 69.9 | trojan | 338.6 | DeltaKronecker-all |
+| 70.93 | trojan | 298.9 | DeltaKronecker-all |
+| 70.91 | trojan | 297.1 | DeltaKronecker-all |
+| 70.53 | vmess | 446.0 | DeltaKronecker-all |
+| 68.82 | trojan | 385.6 | mheidari-all |
+| 67.51 | trojan | 295.3 | DeltaKronecker-all |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
 | snakem982 | 0.976 | 36 | prefer |
-| Surfboard-tg-mixed | 0.772 | 115 | prefer |
-| mheidari-all | 0.751 | 68 | prefer |
-| DeltaKronecker-all | 0.736 | 193 | prefer |
-| nscl5-all | 0.316 | 1 | observe |
+| mheidari-all | 0.778 | 51 | prefer |
+| Surfboard-tg-mixed | 0.725 | 119 | prefer |
+| DeltaKronecker-all | 0.709 | 114 | prefer |
+| nscl5-all | 0.372 | 2 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
