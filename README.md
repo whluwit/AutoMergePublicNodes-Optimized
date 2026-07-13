@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-07-12 19:02:26 |
+| 更新时间 | 2026-07-13 02:25:24 |
 | 版本 | 2.4.0 |
 | 订阅源 | 103/107 |
-| 原始节点 | 77603 |
-| 去重后 | 24151 |
+| 原始节点 | 77752 |
+| 去重后 | 24184 |
 | TCP 可达 | 3000 |
-| 真实可用 | 158 |
-| 真测通过率 | 5.3% |
-| Verified 输出 | 158 |
-| Global 输出 | 176 |
-| All 输出 | 24151 |
+| 真实可用 | 463 |
+| 真测通过率 | 15.4% |
+| Verified 输出 | 300 |
+| Global 输出 | 300 |
+| All 输出 | 24184 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,21 +337,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 70.22 | trojan | 282.5 | Surfboard-tg-mixed |
-| 68.34 | trojan | 352.7 | mheidari-all |
-| 66.46 | vless | 220.9 | mheidari-all |
-| 66.11 | trojan | 320.7 | Surfboard-tg-mixed |
-| 66.09 | trojan | 353.8 | DeltaKronecker-all |
+| 71.69 | vmess | 380.4 | Surfboard-tg-mixed |
+| 68.35 | vless | 246.8 | Surfboard-tg-mixed |
+| 66.29 | http | 615.5 | snakem982 |
+| 66.1 | http | 622.9 | snakem982 |
+| 65.91 | http | 627.9 | snakem982 |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
 | snakem982 | 0.976 | 36 | prefer |
-| Surfboard-tg-mixed | 0.705 | 94 | prefer |
-| mheidari-all | 0.629 | 49 | observe |
-| DeltaKronecker-all | 0.448 | 93 | observe |
-| xiaoji235-airport-v2ray-all | 0.315 | 1 | observe |
+| Surfboard-tg-mixed | 0.727 | 318 | prefer |
+| DeltaKronecker-all | 0.602 | 155 | observe |
+| mheidari-all | 0.544 | 291 | observe |
+| nscl5-all | 0.381 | 4 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
