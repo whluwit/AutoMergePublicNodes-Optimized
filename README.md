@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-07-13 19:21:49 |
+| 更新时间 | 2026-07-14 02:04:35 |
 | 版本 | 2.4.0 |
-| 订阅源 | 103/107 |
-| 原始节点 | 77324 |
-| 去重后 | 23912 |
+| 订阅源 | 44/107 |
+| 原始节点 | 77026 |
+| 去重后 | 23604 |
 | TCP 可达 | 3000 |
-| 真实可用 | 150 |
-| 真测通过率 | 5.0% |
-| Verified 输出 | 150 |
-| Global 输出 | 160 |
-| All 输出 | 23912 |
+| 真实可用 | 381 |
+| 真测通过率 | 12.7% |
+| Verified 输出 | 300 |
+| Global 输出 | 300 |
+| All 输出 | 23604 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,21 +337,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 73.37 | trojan | 275.7 | DeltaKronecker-all |
-| 71.16 | shadowsocks | 304.3 | mheidari-all |
-| 69.27 | shadowsocks | 392.6 | mheidari-all |
-| 68.07 | shadowsocks | 407.6 | mheidari-all |
-| 67.88 | shadowsocks | 370.8 | mheidari-all |
+| 69.91 | shadowsocks | 243.9 | mheidari-all |
+| 67.37 | trojan | 324.4 | mheidari-all |
+| 67.16 | trojan | 363.4 | DeltaKronecker-all |
+| 66.03 | shadowsocks | 226.3 | mheidari-all |
+| 66.01 | http | 630.0 | snakem982 |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
 | snakem982 | 0.976 | 36 | prefer |
-| Surfboard-tg-mixed | 0.722 | 79 | prefer |
-| DeltaKronecker-all | 0.627 | 62 | observe |
-| mheidari-all | 0.617 | 52 | observe |
-| Au1rxx-base64 | 0.259 | 1 | observe |
+| Surfboard-tg-mixed | 0.848 | 136 | prefer |
+| mheidari-all | 0.847 | 84 | prefer |
+| DeltaKronecker-all | 0.755 | 250 | prefer |
+| xiaoji235-airport-v2ray-all | 0.4 | 4 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
