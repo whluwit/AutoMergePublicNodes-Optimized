@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-07-23 02:26:06 |
+| 更新时间 | 2026-07-23 08:27:54 |
 | 版本 | 2.4.0 |
 | 订阅源 | 102/107 |
-| 原始节点 | 81619 |
-| 去重后 | 22921 |
+| 原始节点 | 83068 |
+| 去重后 | 22722 |
 | TCP 可达 | 3000 |
-| 真实可用 | 642 |
-| 真测通过率 | 21.4% |
+| 真实可用 | 744 |
+| 真测通过率 | 24.8% |
 | Verified 输出 | 300 |
 | Global 输出 | 300 |
-| All 输出 | 22921 |
+| All 输出 | 22722 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,20 +337,20 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 72.99 | vless | 221.4 | mheidari-all |
-| 71.55 | vless | 197.2 | mheidari-all |
-| 70.7 | trojan | 315.8 | mheidari-all |
-| 69.13 | vless | 237.1 | mheidari-all |
-| 68.0 | trojan | 327.7 | DeltaKronecker-all |
+| 77.12 | vless | 187.1 | Surfboard-tg-mixed |
+| 71.77 | trojan | 283.9 | DeltaKronecker-all |
+| 71.64 | vless | 168.6 | DeltaKronecker-all |
+| 71.59 | vless | 170.9 | DeltaKronecker-all |
+| 70.75 | trojan | 325.9 | DeltaKronecker-all |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| Surfboard-tg-mixed | 0.994 | 68 | prefer |
 | zhangkai | 0.976 | 36 | prefer |
-| DeltaKronecker-all | 0.749 | 170 | prefer |
-| mheidari-all | 0.626 | 777 | observe |
+| mheidari-all | 0.929 | 381 | prefer |
+| Surfboard-tg-mixed | 0.617 | 244 | observe |
+| DeltaKronecker-all | 0.608 | 470 | observe |
 | xiaoji235-airport-v2ray-all | 0.391 | 2 | observe |
 
 <!-- AUTONODES_STATS_END -->
