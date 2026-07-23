@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-07-22 19:11:18 |
+| 更新时间 | 2026-07-23 02:26:06 |
 | 版本 | 2.4.0 |
 | 订阅源 | 102/107 |
-| 原始节点 | 82193 |
-| 去重后 | 22546 |
+| 原始节点 | 81619 |
+| 去重后 | 22921 |
 | TCP 可达 | 3000 |
-| 真实可用 | 454 |
-| 真测通过率 | 15.1% |
+| 真实可用 | 642 |
+| 真测通过率 | 21.4% |
 | Verified 输出 | 300 |
 | Global 输出 | 300 |
-| All 输出 | 22546 |
+| All 输出 | 22921 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,21 +337,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 75.04 | vless | 186.1 | Surfboard-tg-mixed |
-| 74.22 | trojan | 262.1 | mheidari-all |
-| 70.9 | trojan | 215.2 | mheidari-all |
-| 70.08 | trojan | 287.3 | mheidari-all |
-| 69.59 | vless | 219.5 | mheidari-all |
+| 72.99 | vless | 221.4 | mheidari-all |
+| 71.55 | vless | 197.2 | mheidari-all |
+| 70.7 | trojan | 315.8 | mheidari-all |
+| 69.13 | vless | 237.1 | mheidari-all |
+| 68.0 | trojan | 327.7 | DeltaKronecker-all |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| zhangkai | 0.975 | 35 | prefer |
-| mheidari-all | 0.815 | 349 | prefer |
-| DeltaKronecker-all | 0.703 | 67 | prefer |
-| Surfboard-tg-mixed | 0.634 | 211 | observe |
-| Au1rxx-base64 | 0.329 | 2 | observe |
+| Surfboard-tg-mixed | 0.994 | 68 | prefer |
+| zhangkai | 0.976 | 36 | prefer |
+| DeltaKronecker-all | 0.749 | 170 | prefer |
+| mheidari-all | 0.626 | 777 | observe |
+| xiaoji235-airport-v2ray-all | 0.391 | 2 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
