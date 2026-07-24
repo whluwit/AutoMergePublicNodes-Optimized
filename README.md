@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-07-24 13:31:40 |
+| 更新时间 | 2026-07-24 19:22:52 |
 | 版本 | 2.4.0 |
 | 订阅源 | 102/107 |
-| 原始节点 | 82965 |
-| 去重后 | 22672 |
+| 原始节点 | 83200 |
+| 去重后 | 22824 |
 | TCP 可达 | 3000 |
-| 真实可用 | 638 |
-| 真测通过率 | 21.3% |
+| 真实可用 | 589 |
+| 真测通过率 | 19.6% |
 | Verified 输出 | 300 |
 | Global 输出 | 300 |
-| All 输出 | 22672 |
+| All 输出 | 22824 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,21 +337,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 82.17 | trojan | 248.9 | mheidari-all |
-| 76.86 | trojan | 307.8 | mheidari-all |
-| 74.18 | vmess | 350.0 | mheidari-all |
-| 73.65 | vless | 316.8 | mheidari-all |
-| 73.38 | trojan | 386.4 | mheidari-all |
+| 75.7 | vless | 230.2 | mheidari-all |
+| 74.9 | vless | 264.5 | mheidari-all |
+| 73.82 | trojan | 450.5 | mheidari-all |
+| 73.42 | vless | 292.3 | mheidari-all |
+| 72.34 | trojan | 354.4 | mheidari-all |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| zhangkai | 0.976 | 36 | prefer |
-| mheidari-all | 0.818 | 665 | prefer |
-| Surfboard-tg-mixed | 0.729 | 35 | prefer |
-| DeltaKronecker-all | 0.711 | 120 | prefer |
-| Au1rxx-base64 | 0.601 | 9 | observe |
+| zhangkai | 0.95 | 36 | prefer |
+| Surfboard-tg-mixed | 0.928 | 90 | prefer |
+| mheidari-all | 0.788 | 583 | prefer |
+| DeltaKronecker-all | 0.73 | 78 | prefer |
+| Au1rxx-base64 | 0.636 | 10 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
