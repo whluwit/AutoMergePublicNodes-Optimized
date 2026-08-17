@@ -319,17 +319,17 @@ MIT
 
 | 指标 | 数值 |
 | --- | --- |
-| 更新时间 | 2026-08-16 18:26:20 |
+| 更新时间 | 2026-08-17 01:04:31 |
 | 版本 | 2.4.0 |
-| 订阅源 | 100/107 |
-| 原始节点 | 79830 |
-| 去重后 | 21997 |
+| 订阅源 | 101/107 |
+| 原始节点 | 80840 |
+| 去重后 | 22199 |
 | TCP 可达 | 3000 |
-| 真实可用 | 1071 |
-| 真测通过率 | 35.7% |
+| 真实可用 | 1315 |
+| 真测通过率 | 43.8% |
 | Verified 输出 | 300 |
 | Global 输出 | 300 |
-| All 输出 | 21997 |
+| All 输出 | 22199 |
 
 > 输出保护：无。完整报告见 `output/health_report.md`、`output/stats.json`。
 
@@ -337,21 +337,21 @@ MIT
 
 | 评分 | 协议 | 延迟(ms) | 来源 |
 | --- | --- | --- | --- |
-| 83.28 | vless | 223.5 | Au1rxx-base64 |
-| 83.2 | vless | 222.9 | Au1rxx-base64 |
-| 82.28 | http | 309.8 | zhangkai |
-| 82.09 | vless | 286.0 | Au1rxx-base64 |
-| 82.03 | http | 282.6 | zhangkai |
+| 84.19 | http | 235.4 | zhangkai |
+| 84.01 | http | 243.0 | zhangkai |
+| 83.96 | http | 245.3 | zhangkai |
+| 83.91 | http | 247.3 | zhangkai |
+| 83.82 | http | 251.1 | zhangkai |
 
 ### Top 来源质量
 
 | 来源 | 评分 | 测试数 | 建议 |
 | --- | --- | --- | --- |
-| Au1rxx-base64 | 1.0 | 765 | prefer |
+| Au1rxx-base64 | 1.0 | 911 | prefer |
 | zhangkai | 0.999 | 127 | prefer |
-| Surfboard-tg-mixed | 0.933 | 114 | prefer |
-| mheidari-all | 0.856 | 145 | prefer |
-| 10ium-ScrapeCategorize-Vless | 0.287 | 2 | observe |
+| mheidari-all | 0.84 | 169 | prefer |
+| Surfboard-tg-mixed | 0.814 | 242 | prefer |
+| 10ium-ScrapeCategorize-Vless | 0.335 | 1 | observe |
 
 <!-- AUTONODES_STATS_END -->
 
