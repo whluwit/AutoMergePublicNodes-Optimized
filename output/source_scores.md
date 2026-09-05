@@ -1,14 +1,14 @@
 # 订阅源质量评分
 
-生成时间：2026-09-04 20:15:36
+生成时间：2026-09-05 02:43:18
 
 ## 摘要
 
 | 指标 | 值 |
 | --- | --- |
 | 已评分订阅源总数 | 107 |
-| 建议优先 | 5 |
-| 继续观察 | 102 |
+| 建议优先 | 3 |
+| 继续观察 | 104 |
 | 建议降权 | 0 |
 | 建议禁用 | 0 |
 
@@ -16,11 +16,9 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Au1rxx-base64 | 1.0 | prefer | 393 | 365 | 28 | 0.929 | 1887 | 0 |
 | zhangkai | 0.962 | prefer | 21 | 21 | 0 | 1.0 | 144 | 0 |
-| Au1rxx-base64 | 0.952 | prefer | 346 | 306 | 40 | 0.884 | 1756 | 0 |
-| mheidari-all | 0.899 | prefer | 114 | 94 | 20 | 0.825 | 16096 | 0 |
-| Surfboard-tg-mixed | 0.807 | prefer | 170 | 124 | 46 | 0.729 | 7342 | 0 |
-| DeltaKronecker-all | 0.747 | prefer | 49 | 33 | 16 | 0.673 | 7089 | 0 |
+| Surfboard-tg-mixed | 0.877 | prefer | 210 | 168 | 42 | 0.8 | 7265 | 0 |
 
 ## 建议降权
 
@@ -34,36 +32,36 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Au1rxx-base64 | 1.0 | prefer | 393 | 365 | 28 | 0.929 | 1887 | 0 |
 | zhangkai | 0.962 | prefer | 21 | 21 | 0 | 1.0 | 144 | 0 |
-| Au1rxx-base64 | 0.952 | prefer | 346 | 306 | 40 | 0.884 | 1756 | 0 |
-| mheidari-all | 0.899 | prefer | 114 | 94 | 20 | 0.825 | 16096 | 0 |
-| Surfboard-tg-mixed | 0.807 | prefer | 170 | 124 | 46 | 0.729 | 7342 | 0 |
-| DeltaKronecker-all | 0.747 | prefer | 49 | 33 | 16 | 0.673 | 7089 | 0 |
+| Surfboard-tg-mixed | 0.877 | prefer | 210 | 168 | 42 | 0.8 | 7265 | 0 |
+| mheidari-all | 0.686 | observe | 229 | 139 | 90 | 0.607 | 16194 | 0 |
 | tg-oneclickvpnkeys | 0.554 | observe | 8 | 8 | 0 | 1.0 | 118 | 0 |
-| tg-OutlineReleasedKey | 0.257 | observe | 1 | 1 | 0 | 1.0 | 50 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 8118 | 0 |
-| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7798 | 0 |
-| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6376 | 0 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 6159 | 0 |
+| DeltaKronecker-all | 0.35 | observe | 98 | 26 | 72 | 0.265 | 7089 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 8088 | 0 |
+| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7727 | 0 |
+| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 6282 | 0 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 6067 | 0 |
 | mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4095 | 0 |
 | MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3997 | 0 |
+| Au1rxx-clash | 0.25 | observe | 0 | 0 | 0 | None | 1887 | 0 |
 | ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
-| Au1rxx-clash | 0.245 | observe | 0 | 0 | 0 | None | 1756 | 0 |
+| 10ium-ScrapeCategorize-Vless | 0.24 | observe | 4 | 1 | 3 | 0.25 | 4810 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
 | 10ium-HighSpeed | 0.209 | observe | 0 | 0 | 0 | None | 839 | 0 |
-| 10ium-ScrapeCategorize-Vless | 0.207 | observe | 1 | 0 | 1 | 0.0 | 4810 | 0 |
-| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 495 | 0 |
-| barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 477 | 0 |
+| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 496 | 0 |
+| barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 476 | 0 |
 | ts-sf-Fly | 0.183 | observe | 0 | 0 | 0 | None | 201 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-ConfigV2rayNG | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
-| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 176 | 0 |
+| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 177 | 0 |
 | tg-proxy_mtm | 0.182 | observe | 0 | 0 | 0 | None | 168 | 0 |
 | Barabama-yudou | 0.182 | observe | 0 | 0 | 0 | None | 166 | 0 |
 | barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 | tg-prrofile_purple | 0.181 | observe | 0 | 0 | 0 | None | 152 | 0 |
+| roosterkid-openproxylist-v2ray | 0.181 | observe | 0 | 0 | 0 | None | 150 | 0 |
 
 ## 综合后 30
 
