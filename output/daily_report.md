@@ -1,6 +1,6 @@
 # AutoNodes 每日报告
 
-生成时间：2026-09-10 02:59:38
+生成时间：2026-09-10 10:40:36
 
 ## 摘要
 
@@ -8,82 +8,81 @@
 | --- | --- |
 | 健康状态 | warning |
 | 健康检查通过 | True |
-| 健康源数量 | 95/107 |
-| 清理建议：禁用/降权 | 0/0 |
-| 清理建议：优先/观察 | 3/104 |
-| 原始节点数 | 83752 |
-| 去重后节点数 | 21985 |
+| 健康源数量 | 96/107 |
+| 清理建议：禁用/降权 | 0/1 |
+| 清理建议：优先/观察 | 3/103 |
+| 原始节点数 | 91075 |
+| 去重后节点数 | 24106 |
 | TCP 可达数 | 3000 |
-| 真测通过数 | 597 |
+| 真测通过数 | 467 |
 | verified 输出数 | 300 |
 | global 输出数 | 300 |
-| all 输出数 | 21985 |
+| all 输出数 | 24106 |
 | all 输出模式 | full |
 
 ## 阶段耗时
 
 | 阶段 | 秒 |
 | --- | --- |
-| fetch | 6.7 |
-| generate | 80.2 |
+| fetch | 7.9 |
+| generate | 84.2 |
 | geo | 1.4 |
-| probe | 286.8 |
-| real_test | 336.8 |
-| tcp | 37.4 |
+| probe | 327.2 |
+| real_test | 303.2 |
+| tcp | 40.5 |
 
 ## 协议通过率
 
 | 协议 | 已测 | 通过 | 失败 | 通过率 |
 | --- | --- | --- | --- | --- |
-| anytls | 2 | 2 | 0 | 100.0% |
-| http | 68 | 46 | 22 | 67.6% |
-| hysteria2 | 11 | 11 | 0 | 100.0% |
-| shadowsocks | 190 | 180 | 10 | 94.7% |
-| socks | 1 | 0 | 1 | 0.0% |
-| trojan | 56 | 53 | 3 | 94.6% |
-| vless | 488 | 303 | 185 | 62.1% |
+| anytls | 1 | 1 | 0 | 100.0% |
+| http | 52 | 38 | 14 | 73.1% |
+| hysteria2 | 22 | 22 | 0 | 100.0% |
+| shadowsocks | 153 | 142 | 11 | 92.8% |
+| socks | 5 | 2 | 3 | 40.0% |
+| trojan | 36 | 27 | 9 | 75.0% |
+| vless | 381 | 233 | 148 | 61.2% |
 | vmess | 2 | 2 | 0 | 100.0% |
 
 ## 主要真测错误
 
 | 错误 | 数量 |
 | --- | --- |
-| speed:TimeoutError | 45 |
-| geo:ClientOSError | 44 |
-| geo:TimeoutError | 39 |
-| 204:ProxyError | 29 |
-| speed:ClientOSError | 24 |
-| cn-block:ClientOSError | 11 |
-| 204:TimeoutError | 9 |
-| cn-block:TimeoutError | 9 |
-| 204:ProxyConnectionError | 4 |
-| cn-block:ProxyError | 3 |
-| 204:ClientOSError | 3 |
-| geo:ProxyError | 1 |
+| geo:ClientOSError | 55 |
+| cn-block:ClientOSError | 29 |
+| 204:ProxyError | 21 |
+| cn-block:TimeoutError | 21 |
+| 204:TimeoutError | 19 |
+| geo:TimeoutError | 13 |
+| speed:ClientOSError | 11 |
+| speed:TimeoutError | 9 |
+| 204:ProxyConnectionError | 3 |
+| cn-block:ProxyError | 2 |
+| geo:ProxyError | 2 |
 
 ## TCP 预筛选错误
 
 | 错误 | 数量 |
 | --- | --- |
-| TimeoutError | 5123 |
-| ConnectionRefusedError | 852 |
-| gaierror | 334 |
-| OSError | 18 |
+| TimeoutError | 5688 |
+| ConnectionRefusedError | 944 |
+| gaierror | 420 |
+| OSError | 244 |
 
 ## 高评分订阅源
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过率 | 解析数 |
 | --- | --- | --- | --- | --- | --- |
-| Au1rxx-base64 | 1.0 | prefer | 293 | 0.956 | 1545 |
-| Surfboard-tg-mixed | 0.867 | prefer | 176 | 0.79 | 7448 |
-| ermaozi | 0.709 | prefer | 53 | 0.698 | 449 |
-| mheidari-all | 0.653 | observe | 162 | 0.574 | 16259 |
-| ermaozi-get_subscribe | 0.502 | observe | 16 | 0.562 | 469 |
-| DeltaKronecker-all | 0.399 | observe | 111 | 0.315 | 5187 |
-| tg-oneclickvpnkeys | 0.317 | observe | 2 | 1.0 | 147 |
-| 10ium-HighSpeed | 0.289 | observe | 1 | 1.0 | 839 |
-| tg-OutlineReleasedKey | 0.257 | observe | 1 | 1.0 | 53 |
-| Epodonios-all | 0.255 | observe | 0 | None | 7910 |
+| Au1rxx-base64 | 0.935 | prefer | 274 | 0.872 | 1628 |
+| Surfboard-tg-mixed | 0.852 | prefer | 134 | 0.776 | 7346 |
+| ermaozi | 0.74 | prefer | 52 | 0.731 | 449 |
+| mheidari-all | 0.557 | observe | 174 | 0.477 | 19290 |
+| tg-oneclickvpnkeys | 0.264 | observe | 1 | 1.0 | 214 |
+| tg-LonUp_M | 0.262 | observe | 1 | 1.0 | 178 |
+| 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | None | 4995 |
+| Epodonios-all | 0.255 | observe | 0 | None | 7808 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | None | 3998 |
+| SoliSpirit-all | 0.255 | observe | 0 | None | 8703 |
 
 ## 需关注订阅源
 
@@ -100,35 +99,41 @@
 | tg-abc_configs | 0.025 | observe | 0 | None | 1 | 0 |
 | tg-ernoxin_shop | 0.025 | observe | 0 | None | 1 | 0 |
 
+## 订阅源清理建议
+
+| 分类 | 订阅源 | 评分 | 已测 | 通过率 | 连续死亡 | 原因 |
+| --- | --- | --- | --- | --- | --- | --- |
+| downweight | DeltaKronecker-all | 0.183 | 13 | 0.077 | 0 | 已测数量 >= 5 且评分偏低 |
+
 ## 真测通过率较低的订阅源
 
 | 订阅源 | 通过率 | 通过 | 失败 | 已测 |
 | --- | --- | --- | --- | --- |
-| 10ium-ScrapeCategorize-Vless | 0.0 | 0 | 3 | 3 |
-| DeltaKronecker-all | 0.315 | 35 | 76 | 111 |
-| ermaozi-get_subscribe | 0.562 | 9 | 7 | 16 |
-| mheidari-all | 0.574 | 93 | 69 | 162 |
-| ermaozi | 0.698 | 37 | 16 | 53 |
-| Surfboard-tg-mixed | 0.79 | 139 | 37 | 176 |
-| Au1rxx-base64 | 0.956 | 280 | 13 | 293 |
-| tg-OutlineReleasedKey | 1.0 | 1 | 0 | 1 |
-| 10ium-HighSpeed | 1.0 | 1 | 0 | 1 |
-| tg-oneclickvpnkeys | 1.0 | 2 | 0 | 2 |
+| tg-V2RAYProxy | 0.0 | 0 | 1 | 1 |
+| Barabama-yudou | 0.0 | 0 | 1 | 1 |
+| ninja-vless | 0.0 | 0 | 1 | 1 |
+| DeltaKronecker-all | 0.077 | 1 | 12 | 13 |
+| mheidari-all | 0.477 | 83 | 91 | 174 |
+| ermaozi | 0.731 | 38 | 14 | 52 |
+| Surfboard-tg-mixed | 0.776 | 104 | 30 | 134 |
+| Au1rxx-base64 | 0.872 | 239 | 35 | 274 |
+| tg-LonUp_M | 1.0 | 1 | 0 | 1 |
+| tg-oneclickvpnkeys | 1.0 | 1 | 0 | 1 |
 
 ## 解析节点数较高的订阅源
 
 | 订阅源 | 节点数 | 是否正常 | 耗时 | 连续死亡 |
 | --- | --- | --- | --- | --- |
-| mheidari-all | 16259 | yes | 5.19 | 0 |
-| SoliSpirit-all | 8678 | yes | 2.53 | 0 |
-| Epodonios-all | 7910 | yes | 3.58 | 0 |
-| Surfboard-tg-mixed | 7448 | yes | 4.62 | 0 |
-| barry-far-vless | 6333 | yes | 0.8 | 0 |
-| Surfboard-tg-vless | 6108 | yes | 4.15 | 0 |
-| DeltaKronecker-all | 5187 | yes | 2.96 | 0 |
-| 10ium-ScrapeCategorize-Vless | 4795 | yes | 1.28 | 0 |
-| mahdibland-V2RayAggregator | 4247 | yes | 3.27 | 0 |
-| MatinGhanbari-all-sub | 3997 | yes | 1.6 | 0 |
+| mheidari-all | 19290 | yes | 6.05 | 0 |
+| SoliSpirit-all | 8703 | yes | 2.48 | 0 |
+| Epodonios-all | 7808 | yes | 3.03 | 0 |
+| Surfboard-tg-mixed | 7346 | yes | 4.69 | 0 |
+| barry-far-vless | 6215 | yes | 1.64 | 0 |
+| Surfboard-tg-vless | 5990 | yes | 4.24 | 0 |
+| DeltaKronecker-all | 5853 | yes | 5.1 | 0 |
+| 10ium-ScrapeCategorize-Vless | 4995 | yes | 2.15 | 0 |
+| mahdibland-V2RayAggregator | 4358 | yes | 0.51 | 0 |
+| MatinGhanbari-all-sub | 3998 | yes | 0.89 | 0 |
 
 ## 趋势报警
 
@@ -136,15 +141,10 @@
 
 ## 健康报警
 
-### 低通过率协议
-| 协议 | 通过率 |
-| --- | --- |
-| socks | 0.0 |
-
 ### 真测错误报警
 | 错误 | 数量 |
 | --- | --- |
-| geo | 84 |
-| speed | 69 |
-| 204 | 45 |
-| cn-block | 23 |
+| geo | 70 |
+| cn-block | 52 |
+| 204 | 43 |
+| speed | 20 |
