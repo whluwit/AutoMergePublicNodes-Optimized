@@ -1,6 +1,6 @@
 # AutoNodes 每日报告
 
-生成时间：2026-09-11 10:41:35
+生成时间：2026-09-11 15:55:46
 
 ## 摘要
 
@@ -9,81 +9,81 @@
 | 健康状态 | warning |
 | 健康检查通过 | True |
 | 健康源数量 | 94/107 |
-| 清理建议：禁用/降权 | 0/0 |
-| 清理建议：优先/观察 | 3/104 |
-| 原始节点数 | 84419 |
-| 去重后节点数 | 23232 |
+| 清理建议：禁用/降权 | 0/1 |
+| 清理建议：优先/观察 | 4/102 |
+| 原始节点数 | 83937 |
+| 去重后节点数 | 23204 |
 | TCP 可达数 | 3000 |
-| 真测通过数 | 427 |
+| 真测通过数 | 418 |
 | verified 输出数 | 300 |
 | global 输出数 | 300 |
-| all 输出数 | 23232 |
+| all 输出数 | 23204 |
 | all 输出模式 | full |
 
 ## 阶段耗时
 
 | 阶段 | 秒 |
 | --- | --- |
-| fetch | 6.9 |
-| generate | 77.3 |
-| geo | 1.6 |
-| probe | 266.3 |
-| real_test | 287.2 |
-| tcp | 38.6 |
+| fetch | 5.1 |
+| generate | 82.3 |
+| geo | 1.3 |
+| probe | 260.4 |
+| real_test | 253.2 |
+| tcp | 40.5 |
 
 ## 协议通过率
 
 | 协议 | 已测 | 通过 | 失败 | 通过率 |
 | --- | --- | --- | --- | --- |
 | anytls | 1 | 1 | 0 | 100.0% |
-| http | 43 | 32 | 11 | 74.4% |
-| hysteria2 | 10 | 10 | 0 | 100.0% |
-| shadowsocks | 154 | 140 | 14 | 90.9% |
-| socks | 1 | 0 | 1 | 0.0% |
-| trojan | 38 | 23 | 15 | 60.5% |
-| vless | 314 | 218 | 96 | 69.4% |
-| vmess | 3 | 3 | 0 | 100.0% |
+| http | 35 | 24 | 11 | 68.6% |
+| hysteria2 | 23 | 23 | 0 | 100.0% |
+| shadowsocks | 159 | 146 | 13 | 91.8% |
+| socks | 2 | 0 | 2 | 0.0% |
+| trojan | 13 | 11 | 2 | 84.6% |
+| vless | 342 | 212 | 130 | 62.0% |
+| vmess | 1 | 1 | 0 | 100.0% |
 
 ## 主要真测错误
 
 | 错误 | 数量 |
 | --- | --- |
-| geo:ClientOSError | 31 |
-| 204:TimeoutError | 20 |
-| speed:TimeoutError | 20 |
-| 204:ProxyError | 18 |
-| geo:TimeoutError | 12 |
+| geo:ClientOSError | 58 |
+| 204:ProxyError | 23 |
+| cn-block:TimeoutError | 19 |
+| 204:TimeoutError | 17 |
 | speed:ClientOSError | 10 |
-| cn-block:ClientOSError | 9 |
-| cn-block:TimeoutError | 6 |
-| 204:ClientOSError | 5 |
-| 204:ProxyConnectionError | 4 |
-| sing-box exited 1: [31mFATAL[0m[0000] start service: start inbound/socks[socks-in]: listen tcp 127.0.0.1:36936: bind: address already in use | 1 |
-| geo:ProxyError | 1 |
+| speed:TimeoutError | 10 |
+| geo:TimeoutError | 8 |
+| cn-block:ClientOSError | 7 |
+| cn-block:ProxyError | 2 |
+| geo:ProxyError | 2 |
+| sing-box exited 1: [31mFATAL[0m[0000] start service: start inbound/socks[socks-in]: listen tcp 127.0.0.1:46534: bind: address already in use | 1 |
+| 204:ClientOSError | 1 |
 
 ## TCP 预筛选错误
 
 | 错误 | 数量 |
 | --- | --- |
-| TimeoutError | 4937 |
-| ConnectionRefusedError | 893 |
-| gaierror | 573 |
-| OSError | 30 |
+| TimeoutError | 5582 |
+| ConnectionRefusedError | 899 |
+| gaierror | 411 |
+| OSError | 21 |
 
 ## 高评分订阅源
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过率 | 解析数 |
 | --- | --- | --- | --- | --- | --- |
-| Au1rxx-base64 | 0.947 | prefer | 280 | 0.879 | 1772 |
-| Surfboard-tg-mixed | 0.778 | prefer | 127 | 0.701 | 7422 |
-| ermaozi | 0.728 | prefer | 43 | 0.721 | 431 |
-| mheidari-all | 0.641 | observe | 64 | 0.562 | 15701 |
-| DeltaKronecker-all | 0.549 | observe | 47 | 0.468 | 6070 |
-| 10ium-HighSpeed | 0.289 | observe | 1 | 1.0 | 839 |
-| ermaozi-get_subscribe | 0.273 | observe | 1 | 1.0 | 461 |
-| tg-oneclickvpnkeys | 0.263 | observe | 1 | 1.0 | 199 |
+| Au1rxx-base64 | 0.903 | prefer | 254 | 0.835 | 1763 |
+| mheidari-all | 0.787 | prefer | 73 | 0.712 | 15708 |
+| Surfboard-tg-mixed | 0.768 | prefer | 136 | 0.691 | 7370 |
+| ermaozi | 0.757 | prefer | 29 | 0.759 | 377 |
+| DeltaKronecker-all | 0.548 | observe | 75 | 0.467 | 6070 |
+| tg-oneclickvpnkeys | 0.32 | observe | 2 | 1.0 | 228 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | None | 4932 |
-| Epodonios-all | 0.255 | observe | 0 | None | 7889 |
+| Epodonios-all | 0.255 | observe | 0 | None | 7833 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | None | 3998 |
+| SoliSpirit-all | 0.255 | observe | 0 | None | 8539 |
 
 ## 需关注订阅源
 
@@ -100,33 +100,40 @@
 | tg-ViProxys | 0.025 | observe | 0 | None | 1 | 0 |
 | tg-abc_configs | 0.025 | observe | 0 | None | 1 | 0 |
 
+## 订阅源清理建议
+
+| 分类 | 订阅源 | 评分 | 已测 | 通过率 | 连续死亡 | 原因 |
+| --- | --- | --- | --- | --- | --- | --- |
+| downweight | ermaozi-get_subscribe | 0.162 | 5 | 0.2 | 0 | 已测数量 >= 5 且评分偏低 |
+
 ## 真测通过率较低的订阅源
 
 | 订阅源 | 通过率 | 通过 | 失败 | 已测 |
 | --- | --- | --- | --- | --- |
-| DeltaKronecker-all | 0.468 | 22 | 25 | 47 |
-| mheidari-all | 0.562 | 36 | 28 | 64 |
-| Surfboard-tg-mixed | 0.701 | 89 | 38 | 127 |
-| ermaozi | 0.721 | 31 | 12 | 43 |
-| Au1rxx-base64 | 0.879 | 246 | 34 | 280 |
-| tg-oneclickvpnkeys | 1.0 | 1 | 0 | 1 |
-| ermaozi-get_subscribe | 1.0 | 1 | 0 | 1 |
-| 10ium-HighSpeed | 1.0 | 1 | 0 | 1 |
+| Barabama-yudou | 0.0 | 0 | 1 | 1 |
+| tg-V2RAYProxy | 0.0 | 0 | 1 | 1 |
+| ermaozi-get_subscribe | 0.2 | 1 | 4 | 5 |
+| DeltaKronecker-all | 0.467 | 35 | 40 | 75 |
+| Surfboard-tg-mixed | 0.691 | 94 | 42 | 136 |
+| mheidari-all | 0.712 | 52 | 21 | 73 |
+| ermaozi | 0.759 | 22 | 7 | 29 |
+| Au1rxx-base64 | 0.835 | 212 | 42 | 254 |
+| tg-oneclickvpnkeys | 1.0 | 2 | 0 | 2 |
 
 ## 解析节点数较高的订阅源
 
 | 订阅源 | 节点数 | 是否正常 | 耗时 | 连续死亡 |
 | --- | --- | --- | --- | --- |
-| mheidari-all | 15701 | yes | 5.33 | 0 |
-| SoliSpirit-all | 8749 | yes | 4.76 | 0 |
-| Epodonios-all | 7889 | yes | 0.29 | 0 |
-| Surfboard-tg-mixed | 7422 | yes | 4.65 | 0 |
-| barry-far-vless | 6213 | yes | 2.81 | 0 |
-| DeltaKronecker-all | 6070 | yes | 5.22 | 0 |
-| Surfboard-tg-vless | 5995 | yes | 4.32 | 0 |
-| 10ium-ScrapeCategorize-Vless | 4932 | yes | 3.11 | 0 |
-| mahdibland-V2RayAggregator | 4223 | yes | 0.38 | 0 |
-| MatinGhanbari-all-sub | 3997 | yes | 2.29 | 0 |
+| mheidari-all | 15708 | yes | 3.91 | 0 |
+| SoliSpirit-all | 8539 | yes | 2.9 | 0 |
+| Epodonios-all | 7833 | yes | 2.48 | 0 |
+| Surfboard-tg-mixed | 7370 | yes | 3.33 | 0 |
+| barry-far-vless | 6192 | yes | 2.01 | 0 |
+| DeltaKronecker-all | 6070 | yes | 4.1 | 0 |
+| Surfboard-tg-vless | 5979 | yes | 3.1 | 0 |
+| 10ium-ScrapeCategorize-Vless | 4932 | yes | 2.11 | 0 |
+| mahdibland-V2RayAggregator | 4223 | yes | 0.62 | 0 |
+| MatinGhanbari-all-sub | 3998 | yes | 2.33 | 0 |
 
 ## 趋势报警
 
@@ -142,8 +149,8 @@
 ### 真测错误报警
 | 错误 | 数量 |
 | --- | --- |
-| 204 | 47 |
-| geo | 44 |
-| speed | 30 |
-| cn-block | 15 |
+| geo | 68 |
+| 204 | 41 |
+| cn-block | 28 |
+| speed | 20 |
 | sing-box exited 1 | 1 |
