@@ -1,14 +1,14 @@
 # 订阅源质量评分
 
-生成时间：2026-10-08 12:51:36
+生成时间：2026-10-08 22:54:53
 
 ## 摘要
 
 | 指标 | 值 |
 | --- | --- |
 | 已评分订阅源总数 | 107 |
-| 建议优先 | 4 |
-| 继续观察 | 102 |
+| 建议优先 | 3 |
+| 继续观察 | 103 |
 | 建议降权 | 1 |
 | 建议禁用 | 0 |
 
@@ -16,16 +16,15 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| zhangkai | 0.966 | prefer | 23 | 23 | 0 | 1.0 | 144 | 0 |
-| mheidari-all | 0.947 | prefer | 43 | 38 | 5 | 0.884 | 23417 | 0 |
-| Au1rxx-base64 | 0.929 | prefer | 345 | 296 | 49 | 0.858 | 1824 | 0 |
-| Surfboard-tg-mixed | 0.752 | prefer | 126 | 85 | 41 | 0.675 | 7320 | 0 |
+| Au1rxx-base64 | 0.971 | prefer | 311 | 280 | 31 | 0.9 | 1827 | 0 |
+| zhangkai | 0.964 | prefer | 22 | 22 | 0 | 1.0 | 144 | 0 |
+| mheidari-all | 0.838 | prefer | 97 | 74 | 23 | 0.763 | 23588 | 0 |
 
 ## 建议降权
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ermaozi-get_subscribe | 0.158 | downweight | 20 | 2 | 18 | 0.1 | 539 | 0 |
+| ermaozi-get_subscribe | 0.226 | downweight | 6 | 2 | 4 | 0.333 | 539 | 0 |
 
 ## 建议禁用
 
@@ -35,36 +34,36 @@
 
 | 订阅源 | 评分 | 建议 | 已测 | 通过 | 失败 | 通过率 | 解析数 | 连续死亡 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| zhangkai | 0.966 | prefer | 23 | 23 | 0 | 1.0 | 144 | 0 |
-| mheidari-all | 0.947 | prefer | 43 | 38 | 5 | 0.884 | 23417 | 0 |
-| Au1rxx-base64 | 0.929 | prefer | 345 | 296 | 49 | 0.858 | 1824 | 0 |
-| Surfboard-tg-mixed | 0.752 | prefer | 126 | 85 | 41 | 0.675 | 7320 | 0 |
-| DeltaKronecker-all | 0.625 | observe | 31 | 17 | 14 | 0.548 | 5197 | 0 |
+| Au1rxx-base64 | 0.971 | prefer | 311 | 280 | 31 | 0.9 | 1827 | 0 |
+| zhangkai | 0.964 | prefer | 22 | 22 | 0 | 1.0 | 144 | 0 |
+| mheidari-all | 0.838 | prefer | 97 | 74 | 23 | 0.763 | 23588 | 0 |
+| Surfboard-tg-mixed | 0.507 | observe | 8 | 6 | 2 | 0.75 | 7187 | 0 |
 | 10ium-HighSpeed | 0.289 | observe | 1 | 1 | 0 | 1.0 | 839 | 0 |
-| ermaozi | 0.258 | observe | 1 | 1 | 0 | 1.0 | 66 | 0 |
+| tg-LonUp_M | 0.262 | observe | 1 | 1 | 0 | 1.0 | 175 | 0 |
+| Barabama-yudou | 0.262 | observe | 1 | 1 | 0 | 1.0 | 166 | 0 |
 | tg-OutlineReleasedKey | 0.257 | observe | 1 | 1 | 0 | 1.0 | 50 | 0 |
-| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 9654 | 0 |
-| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7669 | 0 |
+| SoliSpirit-all | 0.255 | observe | 0 | 0 | 0 | None | 9660 | 0 |
+| Epodonios-all | 0.255 | observe | 0 | 0 | 0 | None | 7650 | 0 |
 | xiaoji235-airport-v2ray-all | 0.255 | observe | 0 | 0 | 0 | None | 6752 | 0 |
-| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 5968 | 0 |
-| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 5776 | 0 |
+| barry-far-vless | 0.255 | observe | 0 | 0 | 0 | None | 5923 | 0 |
+| Surfboard-tg-vless | 0.255 | observe | 0 | 0 | 0 | None | 5683 | 0 |
 | 10ium-ScrapeCategorize-Vless | 0.255 | observe | 0 | 0 | 0 | None | 5081 | 0 |
-| mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4431 | 0 |
-| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3996 | 0 |
-| Au1rxx-clash | 0.248 | observe | 0 | 0 | 0 | None | 1824 | 0 |
+| mahdibland-V2RayAggregator | 0.255 | observe | 0 | 0 | 0 | None | 4362 | 0 |
+| MatinGhanbari-all-sub | 0.255 | observe | 0 | 0 | 0 | None | 3997 | 0 |
+| Au1rxx-clash | 0.248 | observe | 0 | 0 | 0 | None | 1827 | 0 |
 | ninja-vless | 0.247 | observe | 0 | 0 | 0 | None | 1791 | 0 |
+| ermaozi-get_subscribe | 0.226 | downweight | 6 | 2 | 4 | 0.333 | 539 | 0 |
 | moneyfly1-collectSub | 0.222 | observe | 0 | 0 | 0 | None | 1164 | 0 |
-| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 495 | 0 |
-| barry-far-Sub1 | 0.194 | observe | 0 | 0 | 0 | None | 487 | 0 |
-| chromego_merge | 0.188 | observe | 0 | 0 | 0 | None | 313 | 0 |
+| barry-far-Sub2 | 0.195 | observe | 0 | 0 | 0 | None | 496 | 0 |
+| barry-far-Sub1 | 0.195 | observe | 0 | 0 | 0 | None | 489 | 0 |
+| chromego_merge | 0.187 | observe | 0 | 0 | 0 | None | 300 | 0 |
 | ts-sf-Fly | 0.183 | observe | 0 | 0 | 0 | None | 201 | 0 |
 | MatinGhanbari-super-sub | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
+| tg-ConfigV2rayNG | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
+| tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | tg-v2raying | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
 | ts-sf | 0.183 | observe | 0 | 0 | 0 | None | 200 | 0 |
-| tg-Farah_VPN | 0.183 | observe | 0 | 0 | 0 | None | 199 | 0 |
-| tg-LonUp_M | 0.182 | observe | 0 | 0 | 0 | None | 177 | 0 |
-| Barabama-yudou | 0.182 | observe | 0 | 0 | 0 | None | 166 | 0 |
-| tg-Outline_Vpn | 0.182 | observe | 0 | 0 | 0 | None | 164 | 0 |
+| barabama-yudou66 | 0.182 | observe | 0 | 0 | 0 | None | 163 | 0 |
 
 ## 综合后 30
 
@@ -84,7 +83,7 @@
 | tg-ernoxin_shop | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | tg-shadowproxy66 | 0.025 | observe | 0 | 0 | 0 | None | 0 | 1 |
 | tg-V2RAYProxy | 0.136 | observe | 1 | 0 | 1 | 0.0 | 217 | 0 |
-| ermaozi-get_subscribe | 0.158 | downweight | 20 | 2 | 18 | 0.1 | 539 | 0 |
+| DeltaKronecker-all | 0.16 | observe | 4 | 0 | 4 | 0.0 | 5197 | 0 |
 | Mr8AHAL | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
 | ninja-tuic | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
 | tg-ArV2ray | 0.175 | observe | 0 | 0 | 0 | None | 1 | 0 |
@@ -92,14 +91,14 @@
 | tg-Ahmedhamoomi_Servers | 0.175 | observe | 0 | 0 | 0 | None | 2 | 0 |
 | tg-freevpnconfigso | 0.175 | observe | 0 | 0 | 0 | None | 2 | 0 |
 | ninja-hy2 | 0.175 | observe | 0 | 0 | 0 | None | 3 | 0 |
-| tg-VmessProtocol | 0.175 | observe | 0 | 0 | 0 | None | 3 | 0 |
 | tg-v2rayfree | 0.175 | observe | 0 | 0 | 0 | None | 3 | 0 |
+| tg-VmessProtocol | 0.175 | observe | 0 | 0 | 0 | None | 4 | 0 |
 | tg-proSSH | 0.175 | observe | 0 | 0 | 0 | None | 4 | 0 |
 | tg-mehduox_vpn | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
-| tg-proxy_kafee | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
 | tg-xroVPN | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
 | tonykong-base64 | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
 | tonykong-clash | 0.175 | observe | 0 | 0 | 0 | None | 5 | 0 |
+| tg-redfree8 | 0.175 | observe | 0 | 0 | 0 | None | 6 | 0 |
 
 ## 说明
 
